@@ -183,8 +183,9 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWViOTli" projecturn="a.cGVyc29uYWw6dWUyOWViOTliIzIwMTkwMjI4MTc5MjYyNDAx" f3durn="urn:adsk.wipprod:dm.lineage:TbYIAYm_SeiHnU5SEeh_ow" pcbguid="427068f0-0b71-4137-912b-b7c28c9918c9" lastpulledtime="2019-03-13T18:23:50Z" lastsyncedchangeguid="8d6c1867-0a3f-7f40-263e-b221635bc7b8"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWViOTli" projecturn="a.cGVyc29uYWw6dWUyOWViOTliIzIwMTkwMjI4MTc5MjYyNDAx" f3durn="urn:adsk.wipprod:dm.lineage:TbYIAYm_SeiHnU5SEeh_ow" pcbguid="427068f0-0b71-4137-912b-b7c28c9918c9" lastpulledtime="2019-03-13T21:24:17Z" lastsyncedchangeguid="ed92bceb-e856-edcd-7f8b-45c6f67b8124"/>
 <plain>
+<wire x1="3.175" y1="0" x2="98.425" y2="0" width="0.254" layer="20"/>
 <wire x1="98.425" y1="0" x2="101.6" y2="3.175" width="0.254" layer="20" curve="90"/>
 <wire x1="101.6" y1="3.175" x2="101.6" y2="53.975" width="0.254" layer="20"/>
 <wire x1="101.6" y1="53.975" x2="98.425" y2="57.15" width="0.254" layer="20" curve="90"/>
@@ -192,28 +193,10 @@
 <wire x1="3.175" y1="57.15" x2="0" y2="53.975" width="0.254" layer="20" curve="90"/>
 <wire x1="0" y1="53.975" x2="0" y2="3.175" width="0.254" layer="20"/>
 <wire x1="0" y1="3.175" x2="3.175" y2="0" width="0.254" layer="20" curve="90"/>
-<wire x1="3.175" y1="0" x2="98.425" y2="0" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="sirin-clone-library" urn="urn:adsk.eagle:library:9336050">
 <packages>
-<package name="DIN_SDS_50J" urn="urn:adsk.eagle:footprint:9699784/2" library_version="7">
-<hole x="-7.5" y="5" drill="2.4"/>
-<hole x="7.5" y="5" drill="2.4"/>
-<pad name="P$1" x="-2.5" y="0" drill="1.3" diameter="2"/>
-<pad name="P$2" x="2.5" y="0" drill="1.3" diameter="2"/>
-<pad name="2" x="0" y="10" drill="1.3" diameter="2"/>
-<pad name="3" x="-7.5" y="10" drill="1.3" diameter="2"/>
-<pad name="5" x="-5" y="12.5" drill="1.3" diameter="2"/>
-<pad name="4" x="5" y="12.5" drill="1.3" diameter="2"/>
-<pad name="1" x="7.5" y="10" drill="1.3" diameter="2"/>
-<wire x1="-10" y1="-2.5" x2="10" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="10" y1="-2.5" x2="10" y2="15" width="0.127" layer="21"/>
-<wire x1="10" y1="15" x2="-10" y2="15" width="0.127" layer="21"/>
-<wire x1="-10" y1="15" x2="-10" y2="-2.5" width="0.127" layer="21"/>
-<text x="-10" y="-5" size="1.27" layer="21">&gt;NAME</text>
-<text x="2.5" y="-5" size="1.27" layer="21">&gt;VALUE</text>
-</package>
 <package name="CUI_PJ-002A" urn="urn:adsk.eagle:footprint:9702175/1" library_version="9" library_locally_modified="yes">
 <text x="-0.690571875" y="6.135090625" size="1.27105" layer="25">&gt;NAME</text>
 <text x="-0.690815625" y="-6.417590625" size="1.2715" layer="27">&gt;VALUE</text>
@@ -270,21 +253,188 @@
 <text x="-5.842" y="10.341" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.715" y="-8.963" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="STEREO_JACK_2SWITCH" urn="urn:adsk.eagle:footprint:8442324/1" library_version="13">
+<description>https://www.digikey.com/product-detail/en/switchcraft-inc/35RASMT4BHNTRX/SC1488-1-ND/2754493</description>
+<wire x1="0" y1="0" x2="0" y2="6" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="14.5" y2="0" width="0.127" layer="21"/>
+<wire x1="14.5" y1="0" x2="14.5" y2="6" width="0.127" layer="21"/>
+<wire x1="0" y1="6" x2="14.5" y2="6" width="0.127" layer="21"/>
+<hole x="10.5" y="3" drill="2"/>
+<hole x="3.5" y="3" drill="2"/>
+<smd name="1" x="2.4" y="-1.05" dx="2.2" dy="2.1" layer="1"/>
+<smd name="3" x="11.7" y="-1.05" dx="2.7" dy="2.1" layer="1"/>
+<smd name="5" x="15.8" y="3.6" dx="2.6" dy="2.7" layer="1"/>
+<smd name="4" x="1.6" y="7.05" dx="2" dy="2.1" layer="1"/>
+<smd name="2" x="4.3" y="7.05" dx="2.2" dy="2.1" layer="1"/>
+<text x="6.985" y="6.985" size="1.27" layer="21">&gt;NAME</text>
+<text x="1.397" y="-4.318" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="AMPHENOL_STEREO_JACK" urn="urn:adsk.eagle:footprint:9702872/2" library_version="15" library_locally_modified="yes">
+<wire x1="-16.75" y1="8" x2="0" y2="8" width="0.127" layer="21"/>
+<wire x1="0" y1="8" x2="16.75" y2="8" width="0.127" layer="21"/>
+<wire x1="-16.75" y1="-8" x2="0" y2="-8" width="0.127" layer="21"/>
+<wire x1="0" y1="-8" x2="16.75" y2="-8" width="0.127" layer="21"/>
+<wire x1="-16.75" y1="-8" x2="-16.75" y2="8" width="0.127" layer="21"/>
+<wire x1="16.75" y1="-8" x2="16.75" y2="8" width="0.127" layer="21"/>
+<pad name="6" x="-6.35" y="5.7" drill="1.4" diameter="2.5"/>
+<pad name="5" x="0" y="5.7" drill="1.4" diameter="2.5"/>
+<pad name="4" x="6.35" y="5.7" drill="1.4" diameter="2.5"/>
+<pad name="1" x="6.35" y="-5.7" drill="1.4" diameter="2.5"/>
+<pad name="2" x="0" y="-5.7" drill="1.4" diameter="2.5"/>
+<pad name="3" x="-6.35" y="-5.7" drill="1.4" diameter="2.5"/>
+<hole x="-10.98" y="0" drill="2.1"/>
+</package>
+<package name="SOD323" urn="urn:adsk.eagle:footprint:9797237/1" library_version="19" library_locally_modified="yes">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
+<smd name="C" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
+<package name="0805" urn="urn:adsk.eagle:footprint:8442299/1" library_version="19" library_locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.0762" layer="21"/>
+<wire x1="-1.524" y1="0.762" x2="1.524" y2="0.762" width="0.0762" layer="21"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.0762" layer="21"/>
+<wire x1="1.524" y1="-0.762" x2="-1.524" y2="-0.762" width="0.0762" layer="21"/>
+<text x="-2.032" y="-1.905" size="0.8128" layer="21">&gt;VALUE</text>
+<text x="-2.032" y="1.016" size="0.8128" layer="21">&gt;NAME</text>
+</package>
+<package name="C_0805" urn="urn:adsk.eagle:footprint:8442302/1" library_version="19" library_locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="+" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="-" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.0762" layer="21"/>
+<wire x1="-1.524" y1="0.762" x2="1.524" y2="0.762" width="0.0762" layer="21"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.0762" layer="21"/>
+<wire x1="1.524" y1="-0.762" x2="-1.524" y2="-0.762" width="0.0762" layer="21"/>
+<text x="-2.54" y="0" size="1.27" layer="21">+</text>
+<text x="-2.54" y="1.27" size="0.8128" layer="21">&gt;VALUE</text>
+<text x="-2.54" y="-1.905" size="0.8128" layer="21">&gt;NAME</text>
+</package>
+<package name="DIN_SDS_50J" urn="urn:adsk.eagle:footprint:9699784/2" library_version="19" library_locally_modified="yes">
+<hole x="-7.5" y="5" drill="2.4"/>
+<hole x="7.5" y="5" drill="2.4"/>
+<pad name="P$1" x="-2.5" y="0" drill="1.3" diameter="2"/>
+<pad name="P$2" x="2.5" y="0" drill="1.3" diameter="2"/>
+<pad name="2" x="0" y="10" drill="1.3" diameter="2"/>
+<pad name="3" x="-7.5" y="10" drill="1.3" diameter="2"/>
+<pad name="5" x="-5" y="12.5" drill="1.3" diameter="2"/>
+<pad name="4" x="5" y="12.5" drill="1.3" diameter="2"/>
+<pad name="1" x="7.5" y="10" drill="1.3" diameter="2"/>
+<wire x1="-10" y1="-2.5" x2="10" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="10" y1="-2.5" x2="10" y2="15" width="0.127" layer="21"/>
+<wire x1="10" y1="15" x2="-10" y2="15" width="0.127" layer="21"/>
+<wire x1="-10" y1="15" x2="-10" y2="-2.5" width="0.127" layer="21"/>
+<text x="-10" y="-5" size="1.27" layer="21">&gt;NAME</text>
+<text x="2.5" y="-5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="DIP8" urn="urn:adsk.eagle:footprint:9797258/1" library_version="19" library_locally_modified="yes">
+<description>&lt;b&gt;SMD DIL08&lt;/b&gt; &lt;p&gt;
+dual in line package'</description>
+<wire x1="-5.973" y1="5.483" x2="5.973" y2="5.483" width="0.0508" layer="39"/>
+<wire x1="5.973" y1="5.483" x2="5.973" y2="-5.483" width="0.0508" layer="39"/>
+<wire x1="5.973" y1="-5.483" x2="-5.973" y2="-5.483" width="0.0508" layer="39"/>
+<wire x1="-5.973" y1="-5.483" x2="-5.973" y2="5.483" width="0.0508" layer="39"/>
+<wire x1="-5.36" y1="-3.45" x2="5.36" y2="-3.45" width="0.2032" layer="51"/>
+<wire x1="5.36" y1="-3.45" x2="5.36" y2="3.45" width="0.2032" layer="51"/>
+<wire x1="5.36" y1="3.45" x2="-5.36" y2="3.45" width="0.2032" layer="51"/>
+<wire x1="-5.36" y1="3.45" x2="-5.36" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="-5.36" y1="-1.27" x2="-5.36" y2="-3.45" width="0.2032" layer="51"/>
+<wire x1="-5.3584" y1="1.27" x2="-5.3584" y2="-1.27" width="0.2032" layer="51" curve="-180"/>
+<smd name="1" x="-3.81" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="2" x="-1.27" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="3" x="1.27" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="4" x="3.81" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="5" x="3.81" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="6" x="1.27" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="7" x="-1.27" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="8" x="-3.81" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<text x="-5.635" y="-3.1351" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.905" y="-4.4051" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="21">1</text>
+<rectangle x1="-4.0899" y1="-4.1199" x2="-3.5301" y2="-3.4501" layer="51"/>
+<rectangle x1="-1.5499" y1="-4.1199" x2="-0.9901" y2="-3.4501" layer="51"/>
+<rectangle x1="0.9901" y1="-4.1199" x2="1.5499" y2="-3.4501" layer="51"/>
+<rectangle x1="3.5301" y1="-4.1199" x2="4.0899" y2="-3.4501" layer="51"/>
+<rectangle x1="3.5301" y1="3.4501" x2="4.0899" y2="4.1199" layer="51"/>
+<rectangle x1="0.9901" y1="3.4501" x2="1.5499" y2="4.1199" layer="51"/>
+<rectangle x1="-1.5499" y1="3.4501" x2="-0.9901" y2="4.1199" layer="51"/>
+<rectangle x1="-4.0899" y1="3.4501" x2="-3.5301" y2="4.1199" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="DIN_SDS_50J" urn="urn:adsk.eagle:package:9699785/3" type="model" library_version="7">
-<packageinstances>
-<packageinstance name="DIN_SDS_50J"/>
-</packageinstances>
-</package3d>
 <package3d name="CUI_PJ-002A" urn="urn:adsk.eagle:package:9702177/2" type="model" library_version="9" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CUI_PJ-002A"/>
 </packageinstances>
 </package3d>
-<package3d name="USB-B" urn="urn:adsk.eagle:package:9702591/3" type="model" library_version="11">
+<package3d name="USB-B" urn="urn:adsk.eagle:package:9702591/4" type="model" library_version="12">
 <packageinstances>
 <packageinstance name="USB-B"/>
+</packageinstances>
+</package3d>
+<package3d name="STEREO_JACK_2SWITCH" urn="urn:adsk.eagle:package:8442329/2" type="model" library_version="13">
+<description>https://www.digikey.com/product-detail/en/switchcraft-inc/35RASMT4BHNTRX/SC1488-1-ND/2754493</description>
+<packageinstances>
+<packageinstance name="STEREO_JACK_2SWITCH"/>
+</packageinstances>
+</package3d>
+<package3d name="AMPHENOL_STEREO_JACK" urn="urn:adsk.eagle:package:9702873/3" type="model" library_version="15" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="AMPHENOL_STEREO_JACK"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD2512X110" urn="urn:adsk.eagle:package:9797239/2" type="model" library_version="19" library_locally_modified="yes">
+<description>SOD, 2.50 mm span, 1.70 X 1.25 X 1.10 mm body
+&lt;p&gt;SOD package with 2.50 mm span with body size 1.70 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD323"/>
+</packageinstances>
+</package3d>
+<package3d name="0805" urn="urn:adsk.eagle:package:8442354/2" type="model" library_version="19" library_locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="0805"/>
+</packageinstances>
+</package3d>
+<package3d name="C_0805" urn="urn:adsk.eagle:package:8442351/2" type="model" library_version="19" library_locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C_0805"/>
+</packageinstances>
+</package3d>
+<package3d name="DIN_SDS_50J" urn="urn:adsk.eagle:package:9699785/3" type="model" library_version="19" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="DIN_SDS_50J"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP8" urn="urn:adsk.eagle:package:9797260/1" type="box" library_version="19" library_locally_modified="yes">
+<description>&lt;b&gt;SMD DIL08&lt;/b&gt; &lt;p&gt;
+dual in line package'</description>
+<packageinstances>
+<packageinstance name="DIP8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -482,20 +632,78 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIN_SDS_50J" package3d_urn="urn:adsk.eagle:package:9699785/3" value="MIDI_CONNECTOR" x="33.02" y="53.975" smashed="yes" rot="R180">
-<attribute name="VALUE" x="38.14" y="59.229" size="1.27" layer="21" rot="R180"/>
+<element name="J1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="CUI_PJ-002A" package3d_urn="urn:adsk.eagle:package:9702177/2" value="PJ-002A" x="90.17" y="43.5102" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="CUI INC" x="90.17" y="43.5102" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="84.034909375" y="42.819628125" size="1.27105" layer="25" rot="R90"/>
+<attribute name="STANDARD" value="Manufacturer recommendations" x="90.17" y="43.5102" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="96.587590625" y="42.819384375" size="1.2715" layer="27" rot="R90"/>
 </element>
-<element name="J1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="CUI_PJ-002A" package3d_urn="urn:adsk.eagle:package:9702177/2" value="PJ-002A" x="90.17" y="43.18" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER" value="CUI INC" x="90.17" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="84.034909375" y="42.489428125" size="1.27105" layer="25" rot="R90"/>
-<attribute name="STANDARD" value="Manufacturer recommendations" x="90.17" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="96.587590625" y="42.489184375" size="1.2715" layer="27" rot="R90"/>
+<element name="U$2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="USB-B" package3d_urn="urn:adsk.eagle:package:9702591/4" value="USB-B" x="10.16" y="50.5206" smashed="yes" rot="R180">
+<attribute name="VALUE" x="15.875" y="59.4836" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="U$2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="USB-B" package3d_urn="urn:adsk.eagle:package:9702591/3" value="USB-B" x="10.16" y="49.53" smashed="yes" rot="R180">
-<attribute name="VALUE" x="15.875" y="58.493" size="1.27" layer="21" rot="R180"/>
+<element name="J2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="STEREO_JACK_2SWITCH" package3d_urn="urn:adsk.eagle:package:8442329/2" value="SWITCHCRAFT_PHONEJACK" x="71.12" y="57.15" smashed="yes" rot="R270">
+<attribute name="NAME" x="78.105" y="50.165" size="1.27" layer="21" rot="R270"/>
+<attribute name="VALUE" x="66.802" y="55.753" size="1.27" layer="21" rot="R270"/>
+</element>
+<element name="U$3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="AMPHENOL_STEREO_JACK" package3d_urn="urn:adsk.eagle:package:9702873/3" value="STEREO_LINE_OUT_JACK" x="54.61" y="39.37" smashed="yes" rot="R90"/>
+<element name="D1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="SOD323" package3d_urn="urn:adsk.eagle:package:9797239/2" value="1N4148WX-TP" x="27.94" y="30.48" smashed="yes">
+<attribute name="NAME" x="27.04" y="31.26" size="1.016" layer="25"/>
+</element>
+<element name="R1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="0805" package3d_urn="urn:adsk.eagle:package:8442354/2" value="220OHM" x="27.94" y="34.29" smashed="yes">
+<attribute name="NAME" x="24.765" y="34.036" size="0.8128" layer="21"/>
+<attribute name="VALUE" x="25.781" y="35.306" size="0.8128" layer="21"/>
+</element>
+<element name="C1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="C_0805" package3d_urn="urn:adsk.eagle:package:8442351/2" value="0.1UF" x="43.18" y="35.56" smashed="yes">
+<attribute name="NAME" x="41.656" y="33.782" size="0.8128" layer="21"/>
+<attribute name="VALUE" x="43.561" y="33.909" size="0.8128" layer="21"/>
+</element>
+<element name="R2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="0805" package3d_urn="urn:adsk.eagle:package:8442354/2" value="470OHM" x="43.18" y="30.48" smashed="yes">
+<attribute name="NAME" x="41.656" y="31.496" size="0.8128" layer="21"/>
+<attribute name="VALUE" x="41.529" y="28.829" size="0.8128" layer="21"/>
+</element>
+<element name="U$1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIN_SDS_50J" package3d_urn="urn:adsk.eagle:package:9699785/3" value="MIDI_CONNECTOR" x="31.75" y="41.91" smashed="yes"/>
+<element name="OK1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIP8" package3d_urn="urn:adsk.eagle:package:9797260/1" value="6N138" x="35.56" y="31.75" smashed="yes" rot="R270">
+<attribute name="VALUE" x="32.9329" y="24.845" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
+<signal name="N$1">
+<contactref element="U$1" pad="5"/>
+<contactref element="OK1" pad="3"/>
+<contactref element="D1" pad="A"/>
+<wire x1="29.04" y1="30.48" x2="26.75" y2="54.41" width="0" layer="19" extent="1-1"/>
+<wire x1="31.76" y1="30.48" x2="29.04" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R1" pad="2"/>
+<contactref element="U$1" pad="4"/>
+<wire x1="28.84" y1="34.29" x2="36.75" y2="54.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R1" pad="1"/>
+<contactref element="OK1" pad="2"/>
+<contactref element="D1" pad="C"/>
+<wire x1="27.04" y1="34.29" x2="31.76" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="26.84" y1="30.48" x2="27.04" y2="34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="5V">
+<contactref element="OK1" pad="8"/>
+<contactref element="C1" pad="+"/>
+<wire x1="42.28" y1="35.56" x2="39.36" y2="35.56" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="OK1" pad="5"/>
+<contactref element="C1" pad="-"/>
+<wire x1="44.08" y1="35.56" x2="39.36" y2="27.94" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="OK1" pad="6"/>
+<contactref element="R2" pad="1"/>
+<wire x1="42.28" y1="30.48" x2="39.36" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3.3V">
+<contactref element="R2" pad="2"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
