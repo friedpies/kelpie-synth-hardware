@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -370,6 +370,44 @@ dual in line package'</description>
 <rectangle x1="-1.5499" y1="3.4501" x2="-0.9901" y2="4.1199" layer="51"/>
 <rectangle x1="-4.0899" y1="3.4501" x2="-3.5301" y2="4.1199" layer="51"/>
 </package>
+<package name="AMPHENOL_30_PIN" urn="urn:adsk.eagle:footprint:9858339/1" locally_modified="yes" library_version="24" library_locally_modified="yes">
+<smd name="P$1" x="-14" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$2" x="-12" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$3" x="-10" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$4" x="-8" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$5" x="-6" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$6" x="-4" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$7" x="-2" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$8" x="0" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$9" x="2" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$10" x="4" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$11" x="6" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$12" x="8" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$13" x="10" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$14" x="12" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$15" x="14" y="2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$16" x="-14" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$17" x="-12" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$18" x="-10" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$19" x="-8" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$20" x="-6" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$21" x="-4" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$22" x="-2" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$23" x="0" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$24" x="2" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$25" x="4" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$26" x="6" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$27" x="8" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$28" x="10" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$29" x="12" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<smd name="P$30" x="14" y="-2.05" dx="1" dy="2.6" layer="1"/>
+<wire x1="-15" y1="2" x2="-15" y2="-2" width="0.127" layer="21"/>
+<wire x1="-15" y1="-2" x2="15" y2="-2" width="0.127" layer="21"/>
+<wire x1="15" y1="-2" x2="15" y2="2" width="0.127" layer="21"/>
+<wire x1="15" y1="2" x2="-15" y2="2" width="0.127" layer="21"/>
+<text x="-14" y="4" size="1.27" layer="21">&gt;NAME</text>
+<text x="-14" y="-5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CUI_PJ-002A" urn="urn:adsk.eagle:package:9702177/2" type="model" library_version="9" library_locally_modified="yes">
@@ -424,6 +462,11 @@ dual in line package'</description>
 dual in line package'</description>
 <packageinstances>
 <packageinstance name="DIP8"/>
+</packageinstances>
+</package3d>
+<package3d name="AMPHENOL_30_PIN" urn="urn:adsk.eagle:package:9858341/2" locally_modified="yes" type="model" library_version="24" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="AMPHENOL_30_PIN"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -663,6 +706,44 @@ dual in line package'</description>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
+<symbol name="30_PIN_CONNECTOR" urn="urn:adsk.eagle:symbol:9858340/1" library_version="24" library_locally_modified="yes">
+<pin name="P$1" x="-12.7" y="17.78" length="middle"/>
+<pin name="P$2" x="-12.7" y="15.24" length="middle"/>
+<pin name="P$3" x="-12.7" y="12.7" length="middle"/>
+<pin name="P$4" x="-12.7" y="10.16" length="middle"/>
+<pin name="P$5" x="-12.7" y="7.62" length="middle"/>
+<pin name="P$6" x="-12.7" y="5.08" length="middle"/>
+<pin name="P$7" x="-12.7" y="2.54" length="middle"/>
+<pin name="P$8" x="-12.7" y="0" length="middle"/>
+<pin name="P$9" x="-12.7" y="-2.54" length="middle"/>
+<pin name="P$10" x="-12.7" y="-5.08" length="middle"/>
+<pin name="P$11" x="-12.7" y="-7.62" length="middle"/>
+<pin name="P$12" x="-12.7" y="-10.16" length="middle"/>
+<pin name="P$13" x="-12.7" y="-12.7" length="middle"/>
+<pin name="P$14" x="-12.7" y="-15.24" length="middle"/>
+<pin name="P$15" x="-12.7" y="-17.78" length="middle"/>
+<pin name="P$16" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="P$17" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="P$18" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="P$19" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="P$20" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="P$21" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="P$22" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="P$23" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="P$24" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$25" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$26" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$27" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$28" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$29" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$30" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.254" layer="94"/>
+<text x="-7.62" y="22.86" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-22.86" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PJ-002A" urn="urn:adsk.eagle:component:9702178/1" locally_modified="yes" prefix="J" library_version="9" library_locally_modified="yes">
@@ -895,6 +976,54 @@ dual in line package'</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="30_PIN_CONNECTOR_MALE" urn="urn:adsk.eagle:component:9858342/1" locally_modified="yes" prefix="J" library_version="24" library_locally_modified="yes">
+<description>https://www.digikey.com/product-detail/en/amphenol-icc-fci/57202-G52-15LF/609-2628-ND/1090157</description>
+<gates>
+<gate name="J1" symbol="30_PIN_CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AMPHENOL_30_PIN">
+<connects>
+<connect gate="J1" pin="P$1" pad="P$1"/>
+<connect gate="J1" pin="P$10" pad="P$10"/>
+<connect gate="J1" pin="P$11" pad="P$11"/>
+<connect gate="J1" pin="P$12" pad="P$12"/>
+<connect gate="J1" pin="P$13" pad="P$13"/>
+<connect gate="J1" pin="P$14" pad="P$14"/>
+<connect gate="J1" pin="P$15" pad="P$15"/>
+<connect gate="J1" pin="P$16" pad="P$16"/>
+<connect gate="J1" pin="P$17" pad="P$17"/>
+<connect gate="J1" pin="P$18" pad="P$18"/>
+<connect gate="J1" pin="P$19" pad="P$19"/>
+<connect gate="J1" pin="P$2" pad="P$2"/>
+<connect gate="J1" pin="P$20" pad="P$20"/>
+<connect gate="J1" pin="P$21" pad="P$21"/>
+<connect gate="J1" pin="P$22" pad="P$22"/>
+<connect gate="J1" pin="P$23" pad="P$23"/>
+<connect gate="J1" pin="P$24" pad="P$24"/>
+<connect gate="J1" pin="P$25" pad="P$25"/>
+<connect gate="J1" pin="P$26" pad="P$26"/>
+<connect gate="J1" pin="P$27" pad="P$27"/>
+<connect gate="J1" pin="P$28" pad="P$28"/>
+<connect gate="J1" pin="P$29" pad="P$29"/>
+<connect gate="J1" pin="P$3" pad="P$3"/>
+<connect gate="J1" pin="P$30" pad="P$30"/>
+<connect gate="J1" pin="P$4" pad="P$4"/>
+<connect gate="J1" pin="P$5" pad="P$5"/>
+<connect gate="J1" pin="P$6" pad="P$6"/>
+<connect gate="J1" pin="P$7" pad="P$7"/>
+<connect gate="J1" pin="P$8" pad="P$8"/>
+<connect gate="J1" pin="P$9" pad="P$9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9858341/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -919,6 +1048,7 @@ dual in line package'</description>
 <part name="OK1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="6N138" device="" package3d_urn="urn:adsk.eagle:package:9797260/1"/>
 <part name="GND1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="GND" device=""/>
 <part name="GND2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="GND" device=""/>
+<part name="J3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="30_PIN_CONNECTOR_MALE" device="" package3d_urn="urn:adsk.eagle:package:9858341/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -970,6 +1100,10 @@ dual in line package'</description>
 </instance>
 <instance part="GND2" gate="1" x="-48.26" y="43.18" smashed="yes">
 <attribute name="VALUE" x="-48.26" y="42.926" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="J3" gate="J1" x="-45.72" y="88.9" smashed="yes">
+<attribute name="NAME" x="-53.34" y="111.76" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-53.34" y="66.04" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
