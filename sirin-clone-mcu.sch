@@ -229,20 +229,6 @@
 <pad name="2" x="6" y="0" drill="1" diameter="2.25" shape="long" rot="R90"/>
 <pad name="3" x="3" y="4.7" drill="1" diameter="2.25" shape="long" rot="R180"/>
 </package>
-<package name="USB-B" urn="urn:adsk.eagle:footprint:9702590/2" library_version="11">
-<pad name="1" x="1.25" y="8.42" drill="0.92"/>
-<pad name="4" x="1.25" y="6.42" drill="0.92"/>
-<pad name="2" x="-1.25" y="8.42" drill="0.92"/>
-<pad name="3" x="-1.25" y="6.42" drill="0.92"/>
-<hole x="6.02" y="3.71" drill="2.3"/>
-<hole x="-6.02" y="3.71" drill="2.3"/>
-<wire x1="-6.05" y1="-6.69" x2="-6.05" y2="9.51" width="0.127" layer="21"/>
-<wire x1="6.05" y1="-6.69" x2="6.05" y2="9.51" width="0.127" layer="21"/>
-<wire x1="-6.05" y1="9.51" x2="6.05" y2="9.51" width="0.127" layer="21"/>
-<wire x1="-6.05" y1="-6.69" x2="6.05" y2="-6.69" width="0.127" layer="21"/>
-<text x="-5.842" y="10.341" size="1.27" layer="21">&gt;NAME</text>
-<text x="-5.715" y="-8.963" size="1.27" layer="21">&gt;VALUE</text>
-</package>
 <package name="AMPHENOL_STEREO_JACK" urn="urn:adsk.eagle:footprint:9702872/2" library_version="15" library_locally_modified="yes">
 <wire x1="-16.75" y1="8" x2="0" y2="8" width="0.127" layer="21"/>
 <wire x1="0" y1="8" x2="16.75" y2="8" width="0.127" layer="21"/>
@@ -394,16 +380,202 @@ dual in line package'</description>
 <text x="-16.002" y="3.937" size="1.27" layer="21">&gt;NAME</text>
 <text x="-16.129" y="-5.334" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="USB-MICROB-PTH-MILL" urn="urn:adsk.eagle:footprint:8711130/1" library_version="33">
+<description>https://www.digikey.com/product-detail/en/amphenol-icc-fci/10103594-0001LF/609-4050-1-ND/2350357</description>
+<smd name="SHIELD7" x="2.72858125" y="-2.53091875" dx="2.1" dy="1.4" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="D+" x="0" y="0" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="D-" x="-0.65" y="0" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="GND" x="1.3" y="0" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="ID" x="0.65" y="0" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="SHIELD2" x="2.9" y="0.275" dx="1.46" dy="2" layer="1" rot="R90"/>
+<smd name="SHIELD" x="-2.9" y="0.275" dx="1.46" dy="2" layer="1" rot="R90"/>
+<smd name="SHIELD3" x="-0.9625" y="-2.675" dx="2.5" dy="1.425" layer="1" rot="R90"/>
+<smd name="SHIELD4" x="0.9625" y="-2.675" dx="2.5" dy="1.425" layer="1" rot="R90"/>
+<smd name="SHIELD5" x="-2.73141875" y="-2.53091875" dx="2.1" dy="1.4" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD6" x="2.7" y="-2.575" dx="1" dy="1" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD8" x="-2.73141875" y="-2.73091875" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD9" x="-2.43" y="0.195" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD10" x="2.43" y="0.195" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="VBUS" x="-1.3" y="0" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
+<text x="-1.016" y="-4.699" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-5.461" size="0.508" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.2032" layer="1">
+<vertex x="-3.725" y="-0.685"/>
+<vertex x="-3.73" y="-1.325"/>
+<vertex x="-3.355" y="-1.325"/>
+<vertex x="-3.35" y="-3.215" curve="90"/>
+<vertex x="-2.945" y="-3.51"/>
+<vertex x="-2.345" y="-3.51" curve="90"/>
+<vertex x="-2.1" y="-3.225"/>
+<vertex x="-2.095" y="-0.685"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="3.718" y="-0.685"/>
+<vertex x="3.718" y="-1.32"/>
+<vertex x="3.34" y="-1.32"/>
+<vertex x="3.34" y="-3.405" curve="-90"/>
+<vertex x="3.2" y="-3.525"/>
+<vertex x="2.335" y="-3.5" curve="-90"/>
+<vertex x="2.137" y="-3.295"/>
+<vertex x="2.137" y="-0.685"/>
+</polygon>
+<polygon width="0.1016" layer="29">
+<vertex x="-3.8" y="-0.625"/>
+<vertex x="-2" y="-0.625"/>
+<vertex x="-2" y="-3.225" curve="-90"/>
+<vertex x="-2.3" y="-3.625"/>
+<vertex x="-3" y="-3.625" curve="-90"/>
+<vertex x="-3.4" y="-3.225"/>
+<vertex x="-3.4" y="-1.425"/>
+<vertex x="-3.8" y="-1.425"/>
+</polygon>
+<polygon width="0.1016" layer="29">
+<vertex x="2" y="-0.625"/>
+<vertex x="3.8" y="-0.625"/>
+<vertex x="3.8" y="-1.425"/>
+<vertex x="3.5" y="-1.425"/>
+<vertex x="3.5" y="-3.325" curve="-90"/>
+<vertex x="3.1" y="-3.625"/>
+<vertex x="2.3" y="-3.625" curve="-90"/>
+<vertex x="2" y="-3.325"/>
+</polygon>
+<polygon width="0.1016" layer="31">
+<vertex x="3.3798" y="-1.4376"/>
+<vertex x="3.8624" y="-1.4376"/>
+<vertex x="3.8624" y="-0.6502"/>
+<vertex x="1.9828" y="-0.6502"/>
+<vertex x="1.9828" y="-3.1902" curve="90"/>
+<vertex x="2.313" y="-3.5204"/>
+<vertex x="3.0496" y="-3.5204" curve="90"/>
+<vertex x="3.3544" y="-3.2156"/>
+<vertex x="3.3544" y="-1.463" curve="-90"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-1.425" y="0.81908125"/>
+<vertex x="-1.175" y="0.81908125"/>
+<vertex x="-1.175" y="-0.80591875"/>
+<vertex x="-1.425" y="-0.80591875"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.775" y="0.81908125"/>
+<vertex x="-0.525" y="0.81908125"/>
+<vertex x="-0.525" y="-0.80591875"/>
+<vertex x="-0.775" y="-0.80591875"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.125" y="0.81908125"/>
+<vertex x="0.125" y="0.81908125"/>
+<vertex x="0.125" y="-0.80591875"/>
+<vertex x="-0.125" y="-0.80591875"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.525" y="0.81908125"/>
+<vertex x="0.775" y="0.81908125"/>
+<vertex x="0.775" y="-0.80591875"/>
+<vertex x="0.525" y="-0.80591875"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="1.175" y="0.81908125"/>
+<vertex x="1.425" y="0.81908125"/>
+<vertex x="1.425" y="-0.80591875"/>
+<vertex x="1.175" y="-0.80591875"/>
+</polygon>
+<polygon width="0.1016" layer="31">
+<vertex x="-3.3926375" y="-1.4376"/>
+<vertex x="-3.8752375" y="-1.4376"/>
+<vertex x="-3.8752375" y="-0.6502"/>
+<vertex x="-1.9956375" y="-0.6502"/>
+<vertex x="-1.9956375" y="-3.1902" curve="-90"/>
+<vertex x="-2.3258375" y="-3.5204"/>
+<vertex x="-3.0624375" y="-3.5204" curve="-90"/>
+<vertex x="-3.3672375" y="-3.2156"/>
+<vertex x="-3.3672375" y="-1.463" curve="90"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="-3.429" y="-2.032"/>
+<vertex x="-2.032" y="-2.032"/>
+<vertex x="-2.032" y="-3.683"/>
+<vertex x="-3.429" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="-3.429" y="-2.032"/>
+<vertex x="-2.032" y="-2.032"/>
+<vertex x="-2.032" y="-3.683"/>
+<vertex x="-3.429" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="2.032" y="-2.032"/>
+<vertex x="3.429" y="-2.032"/>
+<vertex x="3.429" y="-3.683"/>
+<vertex x="2.032" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="2.032" y="-2.032"/>
+<vertex x="3.429" y="-2.032"/>
+<vertex x="3.429" y="-3.683"/>
+<vertex x="2.032" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="-2.921" y="0.889"/>
+<vertex x="-1.905" y="0.889"/>
+<vertex x="-1.905" y="-0.508"/>
+<vertex x="-2.921" y="-0.508"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="1.905" y="0.889"/>
+<vertex x="2.921" y="0.889"/>
+<vertex x="2.921" y="-0.508"/>
+<vertex x="1.905" y="-0.508"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="1.905" y="0.889"/>
+<vertex x="2.921" y="0.889"/>
+<vertex x="2.921" y="-0.508"/>
+<vertex x="1.905" y="-0.508"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="-2.921" y="0.889"/>
+<vertex x="-1.905" y="0.889"/>
+<vertex x="-1.905" y="-0.508"/>
+<vertex x="-2.921" y="-0.508"/>
+</polygon>
+<wire x1="2.38" y1="-2.525" x2="2.73" y2="-2.225" width="0.02" layer="46" curve="-85"/>
+<wire x1="2.73" y1="-2.225" x2="3.08" y2="-2.525" width="0.02" layer="46" curve="-85"/>
+<wire x1="3.08" y1="-2.525" x2="3.08" y2="-3.125" width="0.02" layer="46"/>
+<wire x1="3.08" y1="-3.125" x2="2.73" y2="-3.425" width="0.02" layer="46" curve="-85"/>
+<wire x1="2.73" y1="-3.425" x2="2.38" y2="-3.125" width="0.02" layer="46" curve="-85"/>
+<wire x1="2.38" y1="-3.125" x2="2.38" y2="-2.525" width="0.02" layer="46"/>
+<wire x1="2.105" y1="0.405" x2="2.43" y2="0.73" width="0.02" layer="46" curve="-91.818761"/>
+<wire x1="2.43" y1="0.73" x2="2.755" y2="0.405" width="0.02" layer="46" curve="-90"/>
+<wire x1="2.755" y1="0.405" x2="2.755" y2="0.005" width="0.02" layer="46"/>
+<wire x1="2.755" y1="0.005" x2="2.44" y2="-0.32" width="0.02" layer="46" curve="-98.038753"/>
+<wire x1="2.44" y1="-0.32" x2="2.105" y2="0.005" width="0.02" layer="46" curve="-86.772089"/>
+<wire x1="2.105" y1="0.005" x2="2.105" y2="0.405" width="0.02" layer="46"/>
+<wire x1="-2.755" y1="0.405" x2="-2.43" y2="0.73" width="0.02" layer="46" curve="-91.818761"/>
+<wire x1="-2.43" y1="0.73" x2="-2.105" y2="0.405" width="0.02" layer="46" curve="-90"/>
+<wire x1="-2.105" y1="0.405" x2="-2.105" y2="0.005" width="0.02" layer="46"/>
+<wire x1="-2.105" y1="0.005" x2="-2.42" y2="-0.32" width="0.02" layer="46" curve="-98.038753"/>
+<wire x1="-2.42" y1="-0.32" x2="-2.755" y2="0.005" width="0.02" layer="46" curve="-86.772089"/>
+<wire x1="-2.755" y1="0.005" x2="-2.755" y2="0.405" width="0.02" layer="46"/>
+<wire x1="-3.08" y1="-2.525" x2="-2.73" y2="-2.225" width="0.02" layer="46" curve="-85"/>
+<wire x1="-2.73" y1="-2.225" x2="-2.38" y2="-2.525" width="0.02" layer="46" curve="-85"/>
+<wire x1="-2.38" y1="-2.525" x2="-2.38" y2="-3.125" width="0.02" layer="46"/>
+<wire x1="-2.38" y1="-3.125" x2="-2.73" y2="-3.425" width="0.02" layer="46" curve="-85"/>
+<wire x1="-2.73" y1="-3.425" x2="-3.08" y2="-3.125" width="0.02" layer="46" curve="-85"/>
+<wire x1="-3.08" y1="-3.125" x2="-3.08" y2="-2.525" width="0.02" layer="46"/>
+<wire x1="-3.75" y1="-5.025" x2="3.75" y2="-5.025" width="0.1524" layer="51"/>
+<wire x1="3.75" y1="-5.025" x2="3.75" y2="-0.025" width="0.1524" layer="51"/>
+<wire x1="3.75" y1="-0.025" x2="-3.75" y2="-0.025" width="0.1524" layer="51"/>
+<wire x1="-3.75" y1="-0.025" x2="-3.75" y2="-5.025" width="0.1524" layer="51"/>
+<wire x1="4.02" y1="-5.645" x2="-4.02" y2="-5.645" width="0.1524" layer="51"/>
+<wire x1="-4.02" y1="-5.645" x2="-3.75" y2="-5.025" width="0.1524" layer="51"/>
+<wire x1="4.02" y1="-5.645" x2="3.75" y2="-5.025" width="0.1524" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CUI_PJ-002A" urn="urn:adsk.eagle:package:9702177/2" type="model" library_version="9" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CUI_PJ-002A"/>
-</packageinstances>
-</package3d>
-<package3d name="USB-B" urn="urn:adsk.eagle:package:9702591/4" type="model" library_version="12">
-<packageinstances>
-<packageinstance name="USB-B"/>
 </packageinstances>
 </package3d>
 <package3d name="AMPHENOL_STEREO_JACK" urn="urn:adsk.eagle:package:9702873/3" type="model" library_version="15" library_locally_modified="yes">
@@ -437,7 +609,7 @@ dual in line package'</description>
 <packageinstance name="DIN_SDS_50J"/>
 </packageinstances>
 </package3d>
-<package3d name="DIP8" urn="urn:adsk.eagle:package:9797260/1" type="box" library_version="19" library_locally_modified="yes">
+<package3d name="DIP8" urn="urn:adsk.eagle:package:9797260/2" type="model" library_version="31" library_locally_modified="yes">
 <description>&lt;b&gt;SMD DIL08&lt;/b&gt; &lt;p&gt;
 dual in line package'</description>
 <packageinstances>
@@ -447,6 +619,12 @@ dual in line package'</description>
 <package3d name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:package:9975532/3" locally_modified="yes" type="model" library_version="29" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MOLEX_30PINCONNECTOR_2MM"/>
+</packageinstances>
+</package3d>
+<package3d name="USB-MICROB-PTH-MILL" urn="urn:adsk.eagle:package:8711132/2" type="model" library_version="33">
+<description>https://www.digikey.com/product-detail/en/amphenol-icc-fci/10103594-0001LF/609-4050-1-ND/2350357</description>
+<packageinstances>
+<packageinstance name="USB-MICROB-PTH-MILL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -475,18 +653,6 @@ dual in line package'</description>
 <pin name="1" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="3" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="USB-B" urn="urn:adsk.eagle:symbol:9702601/1" library_version="11">
-<pin name="D+" x="-7.62" y="2.54" length="middle"/>
-<pin name="VCC" x="-7.62" y="7.62" length="middle"/>
-<pin name="D-" x="-7.62" y="-2.54" length="middle"/>
-<pin name="GND" x="-7.62" y="-7.62" length="middle"/>
-<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
-<text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="STEREO_PHONE_JACK_1_4" urn="urn:adsk.eagle:symbol:9702890/1" library_version="15" library_locally_modified="yes">
 <description>https://www.digikey.com/product-detail/en/switchcraft-inc/35RASMT4BHNTRX/SC1488-1-ND/2754493</description>
@@ -695,6 +861,24 @@ dual in line package'</description>
 <text x="-7.62" y="22.86" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="USB-5PIN" urn="urn:adsk.eagle:symbol:10014004/1" library_version="33">
+<description>&lt;h3&gt;USB - 5 pin&lt;/h3&gt;
+&lt;p&gt;5 pin USB connector: VBUS, GND, D+, D-, ID &lt;/p&gt;
+&lt;p&gt;Includes 4 pins for shield connections &lt;/p&gt;</description>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="1.524" size="2.54" layer="94" rot="R270" align="center">USB</text>
+<text x="-2.54" y="-9.906" size="1.778" layer="96" font="vector" rot="MR180" align="top-left">&gt;VALUE</text>
+<text x="-2.54" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="D+" x="5.08" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="D-" x="5.08" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="VBUS" x="5.08" y="7.62" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="5.08" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="ID" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="SHIELD" x="5.08" y="-5.08" visible="pad" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PJ-002A" urn="urn:adsk.eagle:component:9702178/1" locally_modified="yes" prefix="J" library_version="9" library_locally_modified="yes">
@@ -717,28 +901,6 @@ dual in line package'</description>
 <attribute name="MANUFACTURER" value="CUI INC"/>
 <attribute name="STANDARD" value="Manufacturer recommendations"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="USB-B" urn="urn:adsk.eagle:component:9702592/3" library_version="12">
-<description>https://www.digikey.com/product-detail/en/samtec-inc/USB-B-S-F-B-TH/SAM10867-ND/2686101</description>
-<gates>
-<gate name="G$1" symbol="USB-B" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="USB-B">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9702591/4"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -867,7 +1029,7 @@ dual in line package'</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6N138" urn="urn:adsk.eagle:component:9797261/1" prefix="OK" library_version="19" library_locally_modified="yes">
+<deviceset name="6N138" urn="urn:adsk.eagle:component:9797261/1" locally_modified="yes" prefix="OK" library_version="31" library_locally_modified="yes">
 <description>https://www.digikey.com/product-detail/en/lite-on-inc/6N138S/160-1797-ND/1969181</description>
 <gates>
 <gate name="G$1" symbol="138" x="0" y="0"/>
@@ -883,7 +1045,7 @@ dual in line package'</description>
 <connect gate="G$1" pin="VO" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9797260/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9797260/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -949,6 +1111,58 @@ dual in line package'</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1UF" urn="urn:adsk.eagle:component:9910551/1" prefix="C" library_version="30" library_locally_modified="yes">
+<description>https://www.digikey.com/product-detail/en/kemet/C0805C104Z3VACTU/399-9158-1-ND/3522676</description>
+<gates>
+<gate name="C1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C_0805">
+<connects>
+<connect gate="C1" pin="+" pad="+"/>
+<connect gate="C1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8442351/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB_MICRO-B" urn="urn:adsk.eagle:component:10014005/1" prefix="J" uservalue="yes" library_version="33">
+<description>&lt;h3&gt;USB Type Micro-B Connector&lt;/h3&gt;
+&lt;p&gt;Male/female and PTH/SMT variants&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12035”&gt;SparkFun microB USB Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/10031”&gt;SparkFun USB microB Plug Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13231”&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="J1" symbol="USB-5PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_HALF_PTH_MILL" package="USB-MICROB-PTH-MILL">
+<connects>
+<connect gate="J1" pin="D+" pad="D+"/>
+<connect gate="J1" pin="D-" pad="D-"/>
+<connect gate="J1" pin="GND" pad="GND"/>
+<connect gate="J1" pin="ID" pad="ID"/>
+<connect gate="J1" pin="SHIELD" pad="SHIELD SHIELD2 SHIELD3 SHIELD4 SHIELD5 SHIELD6 SHIELD7 SHIELD8 SHIELD9 SHIELD10"/>
+<connect gate="J1" pin="VBUS" pad="VBUS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8711132/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-13711" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1894,19 +2108,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:8700943/1" library_version="12" library_locally_modified="yes">
-<text x="-2.794" y="1.27" size="1.778" layer="95" ratio="10">&gt;NAME</text>
-<text x="-2.794" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<circle x="-2.032" y="0" radius="0.508" width="0.254" layer="94"/>
-<circle x="2.032" y="0" radius="0.508" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0.254" x2="-1.27" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0.508" x2="-0.508" y2="0.508" width="0.254" layer="94" curve="-90"/>
-<wire x1="1.524" y1="-0.254" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.508" x2="0.508" y2="-0.508" width="0.254" layer="94" curve="-90"/>
-<wire x1="0.508" y1="-0.508" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
-</symbol>
 <symbol name="MICROSD" urn="urn:adsk.eagle:symbol:8442287/1" library_version="1" library_locally_modified="yes">
 <pin name="DAT1(8)" x="-10.16" y="7.62" length="middle"/>
 <pin name="DAT0(D0,7)" x="-10.16" y="5.08" length="middle"/>
@@ -2475,25 +2676,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE" urn="urn:adsk.eagle:component:8700979/2" locally_modified="yes" prefix="FUSE" uservalue="yes" library_version="14" library_locally_modified="yes">
-<gates>
-<gate name="FUSE1" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0805">
-<connects>
-<connect gate="FUSE1" pin="1" pad="1"/>
-<connect gate="FUSE1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8442354/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MICROSD" urn="urn:adsk.eagle:component:8442373/2" library_version="3" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="MICROSD" x="-2.54" y="0"/>
@@ -2799,14 +2981,13 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </classes>
 <parts>
 <part name="J1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="PJ-002A" device="" package3d_urn="urn:adsk.eagle:package:9702177/2"/>
-<part name="U$2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="USB-B" device="" package3d_urn="urn:adsk.eagle:package:9702591/4"/>
 <part name="U$3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="STEREO_LINE_OUT_JACK" device="" package3d_urn="urn:adsk.eagle:package:9702873/3"/>
 <part name="D1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="1N4148WX-TP" device="" package3d_urn="urn:adsk.eagle:package:9797239/2"/>
-<part name="R1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="220OHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2"/>
+<part name="R1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="220OHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2" value="220"/>
 <part name="C1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
-<part name="R2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="470OHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2"/>
+<part name="R2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="470OHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2" value="470"/>
 <part name="U$1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="MIDI_CONNECTOR" device="" package3d_urn="urn:adsk.eagle:package:9699785/3"/>
-<part name="OK1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="6N138" device="" package3d_urn="urn:adsk.eagle:package:9797260/1"/>
+<part name="OK1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="6N138" device="" package3d_urn="urn:adsk.eagle:package:9797260/2"/>
 <part name="GND1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="GND" device=""/>
 <part name="GND2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="GND" device=""/>
 <part name="J3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="30_PIN_CONNECTOR_MALE" device="" package3d_urn="urn:adsk.eagle:package:9975532/3"/>
@@ -2818,8 +2999,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <part name="G4" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="CRYSTAL-" device="TC26H" package3d_urn="urn:adsk.eagle:package:8700964/2" value="32.768kHz"/>
 <part name="C3" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="GND4" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
-<part name="C4" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="2.2UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
-<part name="GND5" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
 <part name="GND6" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
 <part name="C7" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="2.2UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="GND7" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
@@ -2849,7 +3028,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <part name="C14" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="C27" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="GND17" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
-<part name="FUSE2" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="FUSE" device="" package3d_urn="urn:adsk.eagle:package:8442354/2"/>
 <part name="C28" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="C29" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="GND18" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
@@ -2871,7 +3049,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <part name="C35" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="C36" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="0.15UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
 <part name="D6" library="moon-germs-v1" deviceset="AP7313" device=""/>
-<part name="L3" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="FERRITE600" device="" package3d_urn="urn:adsk.eagle:package:8442354/2"/>
+<part name="L3" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="FERRITE600" device="" package3d_urn="urn:adsk.eagle:package:8442354/2" value="FER600"/>
 <part name="R11" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="2.2KOHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2" value="2.2K"/>
 <part name="R12" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="2.2KOHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2" value="2.2K"/>
 <part name="U4" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="SGTL5000_32QFN" device="" package3d_urn="urn:adsk.eagle:package:8442355/2"/>
@@ -2881,8 +3059,11 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <part name="R14" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="10KOHM" device="" package3d_urn="urn:adsk.eagle:package:8442354/2" value="10K"/>
 <part name="GND43" library="moon-germs-v1" deviceset="GND" device=""/>
 <part name="J5" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="SWITCHCRAFT_PHONEJACK" device="" package3d_urn="urn:adsk.eagle:package:8442329/2"/>
-<part name="GND19" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
-<part name="GND8" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="GND" device=""/>
+<part name="C2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
+<part name="C5" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="1UF" device="" package3d_urn="urn:adsk.eagle:package:8442351/2"/>
+<part name="GND20" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="GND" device=""/>
+<part name="J2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL" package3d_urn="urn:adsk.eagle:package:8711132/2"/>
+<part name="GND8" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2893,13 +3074,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <attribute name="NAME" x="-248.92118125" y="55.880790625" size="1.77828125" layer="95"/>
 <attribute name="VALUE" x="-248.93235" y="43.17176875" size="1.78088125" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-401.32" y="231.14" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-398.78" y="243.84" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-398.78" y="218.44" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$3" gate="G$1" x="109.22" y="307.34" smashed="yes" rot="R180">
-<attribute name="VALUE" x="103.632" y="299.466" size="1.27" layer="96"/>
-<attribute name="NAME" x="106.172" y="316.484" size="1.27" layer="95"/>
+<instance part="U$3" gate="G$1" x="121.92" y="307.34" smashed="yes" rot="R180">
+<attribute name="VALUE" x="116.332" y="299.466" size="1.27" layer="96"/>
+<attribute name="NAME" x="118.872" y="316.484" size="1.27" layer="95"/>
 </instance>
 <instance part="D1" gate="D1" x="-91.44" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-94.0816" y="38.3286" size="1.778" layer="95" rot="R90"/>
@@ -2964,13 +3141,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </instance>
 <instance part="GND4" gate="1" x="-274.32" y="218.44" smashed="yes">
 <attribute name="VALUE" x="-274.32" y="218.186" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="C4" gate="C1" x="-306.07" y="229.87" smashed="yes">
-<attribute name="VALUE" x="-308.102" y="228.092" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="-308.229" y="232.156" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="GND5" gate="1" x="-306.07" y="219.71" smashed="yes">
-<attribute name="VALUE" x="-306.07" y="219.456" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND6" gate="1" x="-261.62" y="219.71" smashed="yes">
 <attribute name="VALUE" x="-261.62" y="219.456" size="1.778" layer="96" align="top-center"/>
@@ -3076,10 +3246,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </instance>
 <instance part="GND17" gate="1" x="-252.73" y="179.07" smashed="yes">
 <attribute name="VALUE" x="-252.73" y="178.816" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="FUSE2" gate="FUSE1" x="-306.07" y="242.57" smashed="yes" rot="R90">
-<attribute name="NAME" x="-307.34" y="239.776" size="1.778" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="-303.53" y="239.776" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="C28" gate="C1" x="-205.74" y="208.28" smashed="yes">
 <attribute name="VALUE" x="-198.628" y="206.502" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -3192,11 +3358,23 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <attribute name="VALUE" x="149.352" y="283.718" size="1.27" layer="96"/>
 <attribute name="NAME" x="144.272" y="283.464" size="1.27" layer="95"/>
 </instance>
-<instance part="GND19" gate="1" x="-391.16" y="213.36" smashed="yes">
-<attribute name="VALUE" x="-391.16" y="213.106" size="1.778" layer="96" align="top-center"/>
+<instance part="C2" gate="C1" x="99.06" y="294.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="103.886" y="298.704" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="103.505" y="292.1" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND8" gate="1" x="-68.58" y="172.72" smashed="yes">
-<attribute name="VALUE" x="-68.58" y="172.466" size="1.778" layer="96" align="top-center"/>
+<instance part="C5" gate="C1" x="99.06" y="287.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="103.886" y="291.084" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="103.505" y="284.48" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND20" gate="1" x="111.76" y="294.64" smashed="yes">
+<attribute name="VALUE" x="111.76" y="294.386" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="J2" gate="J1" x="-363.22" y="231.14" smashed="yes">
+<attribute name="VALUE" x="-365.76" y="221.234" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<attribute name="NAME" x="-365.76" y="241.554" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND8" gate="1" x="-355.6" y="220.98" smashed="yes">
+<attribute name="VALUE" x="-355.6" y="220.726" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -3251,11 +3429,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <wire x1="-236.22" y1="48.26" x2="-233.68" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-233.68" y1="48.26" x2="-233.68" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="C4" gate="C1" pin="-"/>
-<wire x1="-306.07" y1="222.25" x2="-306.07" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -3436,27 +3609,24 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <junction x="66.04" y="233.68"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="-393.7" y1="223.52" x2="-391.16" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="-391.16" y1="223.52" x2="-391.16" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="U$3" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="297.18" x2="111.76" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$29"/>
-<wire x1="-73.66" y1="182.88" x2="-68.58" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="J3" gate="J1" pin="P$30"/>
-<wire x1="-73.66" y1="180.34" x2="-68.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="182.88" x2="-68.58" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="J3" gate="J1" pin="P$13"/>
+<wire x1="-99.06" y1="185.42" x2="-104.14" y2="185.42" width="0.1524" layer="91"/>
+<label x="-104.14" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="J1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-68.58" y1="180.34" x2="-68.58" y2="175.26" width="0.1524" layer="91"/>
-<junction x="-68.58" y="180.34"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="OK1" gate="G$1" pin="VO"/>
-<pinref part="R2" gate="R1" pin="1"/>
-<wire x1="-60.96" y1="40.64" x2="-38.1" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-358.14" y1="228.6" x2="-355.6" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-355.6" y1="228.6" x2="-355.6" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="SHIELD"/>
+<wire x1="-355.6" y1="226.06" x2="-355.6" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-358.14" y1="226.06" x2="-355.6" y2="226.06" width="0.1524" layer="91"/>
+<junction x="-355.6" y="226.06"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3794,24 +3964,17 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <pinref part="U4" gate="U1" pin="SDA(27)"/>
 </segment>
 </net>
-<net name="VUSB" class="0">
-<segment>
-<wire x1="-306.07" y1="247.65" x2="-306.07" y2="248.92" width="0.1524" layer="91"/>
-<label x="-306.07" y="248.92" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="FUSE2" gate="FUSE1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="-393.7" y1="238.76" x2="-388.62" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="-388.62" y1="238.76" x2="-388.62" y2="243.84" width="0.1524" layer="91"/>
-<label x="-388.62" y="243.84" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="PIN0/MIDIIN" class="0">
 <segment>
 <pinref part="K3" gate="G$1" pin="PTB16"/>
 <wire x1="-147.32" y1="160.02" x2="-142.24" y2="160.02" width="0.1524" layer="91"/>
 <label x="-142.24" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="G$1" pin="VO"/>
+<pinref part="R2" gate="R1" pin="1"/>
+<wire x1="-60.96" y1="40.64" x2="-38.1" y2="40.64" width="0.1524" layer="91"/>
+<label x="-38.1" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PIN1/MIDIOUT" class="0">
@@ -3864,9 +4027,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$6"/>
-<wire x1="-99.06" y1="203.2" x2="-104.14" y2="203.2" width="0.1524" layer="91"/>
-<label x="-104.14" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$5"/>
+<wire x1="-104.14" y1="205.74" x2="-99.06" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN20/KNOB4" class="0">
@@ -3876,9 +4039,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$4"/>
-<wire x1="-99.06" y1="208.28" x2="-104.14" y2="208.28" width="0.1524" layer="91"/>
-<label x="-104.14" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$3"/>
+<wire x1="-104.14" y1="210.82" x2="-99.06" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN21/KNOB5" class="0">
@@ -3888,9 +4051,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$5"/>
-<wire x1="-99.06" y1="205.74" x2="-104.14" y2="205.74" width="0.1524" layer="91"/>
-<label x="-104.14" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$4"/>
+<wire x1="-104.14" y1="208.28" x2="-99.06" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN8/MIDILED" class="0">
@@ -3900,9 +4063,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$3"/>
-<wire x1="-99.06" y1="210.82" x2="-104.14" y2="210.82" width="0.1524" layer="91"/>
-<label x="-104.14" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$2"/>
+<wire x1="-104.14" y1="213.36" x2="-99.06" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN15/KNOB1(VOL)" class="0">
@@ -3919,18 +4082,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 </net>
 <net name="VUSB_IN" class="0">
 <segment>
-<pinref part="C4" gate="C1" pin="+"/>
-<wire x1="-306.07" y1="233.68" x2="-306.07" y2="234.95" width="0.1524" layer="91"/>
-<wire x1="-306.07" y1="234.95" x2="-306.07" y2="237.49" width="0.1524" layer="91"/>
-<wire x1="-306.07" y1="234.95" x2="-316.23" y2="234.95" width="0.1524" layer="91"/>
-<junction x="-306.07" y="234.95"/>
-<label x="-316.23" y="234.95" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="FUSE2" gate="FUSE1" pin="1"/>
-</segment>
-<segment>
 <wire x1="-350.52" y1="238.76" x2="-350.52" y2="243.84" width="0.1524" layer="91"/>
 <label x="-350.52" y="243.84" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="-350.52" y1="238.76" x2="-358.14" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="VBUS"/>
 </segment>
 </net>
 <net name="PINA14/KNOB16" class="0">
@@ -3940,9 +4095,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$7"/>
-<wire x1="-99.06" y1="200.66" x2="-104.14" y2="200.66" width="0.1524" layer="91"/>
-<label x="-104.14" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$6"/>
+<wire x1="-104.14" y1="203.2" x2="-99.06" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -3950,11 +4105,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <pinref part="R5" gate="R1" pin="1"/>
 <wire x1="-350.52" y1="236.22" x2="-358.14" y2="236.22" width="0.1524" layer="91"/>
 <label x="-353.06" y="236.22" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="D-"/>
-<wire x1="-393.7" y1="228.6" x2="-388.62" y2="228.6" width="0.1524" layer="91"/>
-<label x="-388.62" y="228.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="D-"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -3962,11 +4113,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <pinref part="R6" gate="R1" pin="1"/>
 <wire x1="-358.14" y1="233.68" x2="-345.44" y2="233.68" width="0.1524" layer="91"/>
 <label x="-355.6" y="233.68" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="D+"/>
-<wire x1="-393.7" y1="233.68" x2="-388.62" y2="233.68" width="0.1524" layer="91"/>
-<label x="-388.62" y="233.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="D+"/>
 </segment>
 </net>
 <net name="USB_DM" class="0">
@@ -3999,6 +4146,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <wire x1="-345.44" y1="231.14" x2="-345.44" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-345.44" y1="226.06" x2="-332.74" y2="226.06" width="0.1524" layer="91"/>
 <label x="-332.74" y="226.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="ID"/>
 </segment>
 <segment>
 <pinref part="K4" gate="G$1" pin="PTA6"/>
@@ -4105,9 +4253,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-193.04" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$10"/>
-<wire x1="-99.06" y1="193.04" x2="-104.14" y2="193.04" width="0.1524" layer="91"/>
-<label x="-104.14" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$9"/>
+<wire x1="-104.14" y1="195.58" x2="-99.06" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PINA10/KNOB12" class="0">
@@ -4117,9 +4265,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-193.04" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$11"/>
-<wire x1="-99.06" y1="190.5" x2="-104.14" y2="190.5" width="0.1524" layer="91"/>
-<label x="-104.14" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$10"/>
+<wire x1="-104.14" y1="193.04" x2="-99.06" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN17/KNOB3" class="0">
@@ -4153,9 +4301,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$13"/>
-<wire x1="-99.06" y1="185.42" x2="-104.14" y2="185.42" width="0.1524" layer="91"/>
-<label x="-104.14" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$12"/>
+<wire x1="-104.14" y1="187.96" x2="-99.06" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN33/LED4" class="0">
@@ -4177,9 +4325,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$8"/>
-<wire x1="-99.06" y1="198.12" x2="-104.14" y2="198.12" width="0.1524" layer="91"/>
-<label x="-104.14" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$7"/>
+<wire x1="-104.14" y1="200.66" x2="-99.06" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN30/KNOB10" class="0">
@@ -4237,9 +4385,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$9"/>
-<wire x1="-99.06" y1="195.58" x2="-104.14" y2="195.58" width="0.1524" layer="91"/>
-<label x="-104.14" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$8"/>
+<wire x1="-104.14" y1="198.12" x2="-99.06" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIN25/LED2" class="0">
@@ -4273,9 +4421,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-142.24" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="P$12"/>
-<wire x1="-99.06" y1="187.96" x2="-104.14" y2="187.96" width="0.1524" layer="91"/>
-<label x="-104.14" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-104.14" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="J1" pin="P$11"/>
+<wire x1="-104.14" y1="190.5" x2="-99.06" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4353,31 +4501,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <label x="-203.2" y="195.58" size="1.27" layer="95" xref="yes"/>
 <wire x1="-203.2" y1="193.04" x2="-203.2" y2="195.58" width="0.1524" layer="91"/>
 <junction x="-203.2" y="193.04"/>
-</segment>
-</net>
-<net name="AGND" class="0">
-<segment>
-<pinref part="L4" gate="G$1" pin="2"/>
-<pinref part="C13" gate="C1" pin="-"/>
-<wire x1="-245.11" y1="182.88" x2="-233.68" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="182.88" x2="-233.68" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="K3" gate="G$1" pin="VSSA"/>
-<wire x1="-187.96" y1="182.88" x2="-191.77" y2="182.88" width="0.1524" layer="91"/>
-<junction x="-233.68" y="182.88"/>
-<pinref part="K3" gate="G$1" pin="VREFL"/>
-<wire x1="-191.77" y1="182.88" x2="-199.39" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="-199.39" y1="182.88" x2="-208.28" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="182.88" x2="-233.68" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="185.42" x2="-191.77" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="-191.77" y1="185.42" x2="-191.77" y2="182.88" width="0.1524" layer="91"/>
-<junction x="-191.77" y="182.88"/>
-<pinref part="C27" gate="C1" pin="-"/>
-<junction x="-199.39" y="182.88"/>
-<pinref part="C14" gate="C1" pin="-"/>
-<junction x="-208.28" y="182.88"/>
-<wire x1="-191.77" y1="182.88" x2="-191.77" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="-191.77" y1="180.34" x2="-198.12" y2="180.34" width="0.1524" layer="91"/>
-<label x="-198.12" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -4483,10 +4606,73 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <junction x="-274.32" y="234.95"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="N$5" class="0">
 <segment>
-<pinref part="J3" gate="J1" pin="P$2"/>
-<wire x1="-99.06" y1="213.36" x2="-104.14" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="U4" gate="U1" pin="LINEOUTL(12)"/>
+<wire x1="88.9" y1="279.4" x2="93.98" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="C5" gate="C1" pin="+"/>
+<wire x1="93.98" y1="279.4" x2="93.98" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="287.02" x2="95.25" y2="287.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U4" gate="U1" pin="LINEOUTR(11)"/>
+<wire x1="88.9" y1="281.94" x2="91.44" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="281.94" x2="91.44" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="294.64" x2="95.25" y2="294.64" width="0.1524" layer="91"/>
+<pinref part="C2" gate="C1" pin="+"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C2" gate="C1" pin="-"/>
+<wire x1="102.87" y1="294.64" x2="106.68" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="294.64" x2="106.68" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="5"/>
+<wire x1="106.68" y1="307.34" x2="111.76" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="C5" gate="C1" pin="-"/>
+<wire x1="102.87" y1="287.02" x2="109.22" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="6"/>
+<wire x1="109.22" y1="287.02" x2="109.22" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="314.96" x2="111.76" y2="314.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="C13" gate="C1" pin="-"/>
+<wire x1="-245.11" y1="182.88" x2="-233.68" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="182.88" x2="-233.68" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="K3" gate="G$1" pin="VSSA"/>
+<wire x1="-187.96" y1="182.88" x2="-191.77" y2="182.88" width="0.1524" layer="91"/>
+<junction x="-233.68" y="182.88"/>
+<pinref part="K3" gate="G$1" pin="VREFL"/>
+<wire x1="-191.77" y1="182.88" x2="-199.39" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-199.39" y1="182.88" x2="-208.28" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-208.28" y1="182.88" x2="-233.68" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="185.42" x2="-191.77" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-191.77" y1="185.42" x2="-191.77" y2="182.88" width="0.1524" layer="91"/>
+<junction x="-191.77" y="182.88"/>
+<pinref part="C27" gate="C1" pin="-"/>
+<junction x="-199.39" y="182.88"/>
+<pinref part="C14" gate="C1" pin="-"/>
+<junction x="-208.28" y="182.88"/>
+<wire x1="-191.77" y1="182.88" x2="-191.77" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-191.77" y1="180.34" x2="-198.12" y2="180.34" width="0.1524" layer="91"/>
+<label x="-198.12" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="J1" pin="P$29"/>
+<wire x1="-73.66" y1="182.88" x2="-68.58" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="J3" gate="J1" pin="P$30"/>
+<wire x1="-73.66" y1="180.34" x2="-68.58" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="182.88" x2="-68.58" y2="180.34" width="0.1524" layer="91"/>
+<label x="-68.58" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
