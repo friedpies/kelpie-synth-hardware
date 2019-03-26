@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -184,7 +184,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWViOTli" projecturn="a.cGVyc29uYWw6dWUyOWViOTliIzIwMTkwMjI4MTc5MjYyNDAx" f3durn="urn:adsk.wipprod:dm.lineage:TbYIAYm_SeiHnU5SEeh_ow" pcbguid="427068f0-0b71-4137-912b-b7c28c9918c9" lastpulledtime="2019-03-21T19:34:48Z" lastsyncedchangeguid="63e12d14-13f2-8790-f095-b55428db20ab"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWViOTli" projecturn="a.cGVyc29uYWw6dWUyOWViOTliIzIwMTkwMjI4MTc5MjYyNDAx" f3durn="urn:adsk.wipprod:dm.lineage:TbYIAYm_SeiHnU5SEeh_ow" pcbguid="427068f0-0b71-4137-912b-b7c28c9918c9" lastpulledtime="2019-03-21T19:34:48Z" lastsyncedchangeguid="dee72c38-ea4a-60d5-5f84-73839d76ee31"/>
 <plain>
 <polygon width="0.1524" layer="30">
 <vertex x="91.821" y="39.624"/>
@@ -637,7 +637,7 @@ dual in line package'</description>
 <rectangle x1="-1.5499" y1="3.4501" x2="-0.9901" y2="4.1199" layer="51"/>
 <rectangle x1="-4.0899" y1="3.4501" x2="-3.5301" y2="4.1199" layer="51"/>
 </package>
-<package name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:footprint:9975531/2" locally_modified="yes" library_version="29" library_locally_modified="yes">
+<package name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:footprint:9975531/3" library_version="35" library_locally_modified="yes">
 <description>https://www.digikey.com/product-detail/en/molex/0878313020/WM18565-ND/679683</description>
 <pad name="P$1" x="-14" y="1" drill="0.9"/>
 <pad name="P$2" x="-12" y="1" drill="0.9"/>
@@ -945,12 +945,13 @@ dual in line package'</description>
 <packageinstance name="DIP8"/>
 </packageinstances>
 </package3d>
-<package3d name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:package:9975532/3" locally_modified="yes" type="model" library_version="29" library_locally_modified="yes">
+<package3d name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:package:9975532/4" type="model" library_version="35" library_locally_modified="yes">
+<description>https://www.digikey.com/product-detail/en/molex/0878313020/WM18565-ND/679683</description>
 <packageinstances>
 <packageinstance name="MOLEX_30PINCONNECTOR_2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="FCI_10103594-0001LF" urn="urn:adsk.eagle:package:10018607/1" type="box" library_version="34">
+<package3d name="FCI_10103594-0001LF" urn="urn:adsk.eagle:package:10018607/2" type="model" library_version="35" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="FCI_10103594-0001LF"/>
 </packageinstances>
@@ -1222,7 +1223,7 @@ dual in line package'</description>
 <text x="0" y="4.4" size="0.7" layer="51" rot="R90" align="center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="0.762" x2="1.778" y2="8.382" layer="43"/>
 </package>
-<package name="1X5HEADER" library_version="8" library_locally_modified="yes">
+<package name="1X5HEADER" urn="urn:adsk.eagle:footprint:8709580/1" library_version="17" library_locally_modified="yes">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.778"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778"/>
 <pad name="3" x="5.08" y="0" drill="1.016" diameter="1.778"/>
@@ -1657,6 +1658,11 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <packageinstance name="TSSOP8"/>
 </packageinstances>
 </package3d>
+<package3d name="1X5HEADER" urn="urn:adsk.eagle:package:8709581/1" type="box" library_version="17" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="1X5HEADER"/>
+</packageinstances>
+</package3d>
 </packages3d>
 </library>
 <library name="moon-germs-v1">
@@ -1889,6 +1895,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="31.75" y="33.083" size="0.508" layer="21" rot="R180"/>
 </element>
 <element name="C1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="C_0805" package3d_urn="urn:adsk.eagle:package:8442351/2" value="0.1UF" x="47.625" y="30.48" smashed="yes" rot="R270">
+<attribute name="DPN" value="399-9158-1-ND" x="47.625" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/C0805C104Z3VACTU/399-9158-1-ND/3522676" x="47.625" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C104Z3VACTU" x="47.625" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="47.244" y="28.321" size="0.508" layer="21"/>
 <attribute name="VALUE" x="47.117" y="27.686" size="0.508" layer="21"/>
 </element>
@@ -1900,7 +1909,7 @@ design rules under a new name.</description>
 <element name="OK1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIP8" package3d_urn="urn:adsk.eagle:package:9797260/2" value="6N138" x="39.37" y="30.48" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.0449" y="36.656" size="0.508" layer="27"/>
 </element>
-<element name="J3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="MOLEX_30PINCONNECTOR_2MM" package3d_urn="urn:adsk.eagle:package:9975532/3" value="30_PIN_CONNECTOR_MALE" x="81.28" y="9.525" smashed="yes"/>
+<element name="J3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="MOLEX_30PINCONNECTOR_2MM" package3d_urn="urn:adsk.eagle:package:9975532/4" value="30_PIN_CONNECTOR_MALE" x="81.28" y="9.525" smashed="yes"/>
 <element name="K3" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="LQFP64-05" package3d_urn="urn:adsk.eagle:package:8700970/2" value="" x="17.277" y="26.352" smashed="yes" rot="R225">
 <attribute name="DESC" value="MK20DX256VLH7" x="17.277" y="26.352" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MF" value="NXP" x="17.277" y="26.352" size="1.778" layer="27" rot="R225" display="off"/>
@@ -1967,7 +1976,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.08101875" y="31.0718375" size="0.508" layer="25" rot="R315"/>
 <attribute name="VALUE" x="28.619834375" y="31.341246875" size="0.508" layer="27" rot="R315"/>
 </element>
-<element name="J6" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="1X5HEADER" value="SWD_CONNECTOR" x="4.115" y="17.92" smashed="yes" rot="R270"/>
+<element name="J6" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="1X5HEADER" package3d_urn="urn:adsk.eagle:package:8709581/1" value="SWD_CONNECTOR" x="4.115" y="17.92" smashed="yes" rot="R270"/>
 <element name="S2" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="SWITCH_PTS820" package3d_urn="urn:adsk.eagle:package:8762249/2" value="" x="7.62" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.6675" y="10.4775" size="0.7" layer="51" rot="R180" align="center"/>
 </element>
@@ -2111,9 +2120,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="69.088" y="37.719" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="69.469" y="36.957" size="0.508" layer="21" rot="R180"/>
 </element>
-<element name="J2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="FCI_10103594-0001LF" package3d_urn="urn:adsk.eagle:package:10018607/1" value="" x="13.97" y="52.07" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.954" y="56.896" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.24" y="57.531" size="0.508" layer="27" font="vector" rot="R180"/>
+<element name="J2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="FCI_10103594-0001LF" package3d_urn="urn:adsk.eagle:package:10018607/2" value="" x="13.97" y="55.245" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.954" y="60.071" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="15.24" y="60.706" size="0.508" layer="27" font="vector" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -2356,24 +2365,12 @@ design rules under a new name.</description>
 <contactref element="J2" pad="S2"/>
 <contactref element="J2" pad="S6"/>
 <contactref element="J2" pad="S3"/>
-<wire x1="11.545" y1="49.04" x2="11.37" y2="54.745" width="0.2032" layer="1"/>
-<wire x1="11.37" y1="54.745" x2="11.245" y2="52.07" width="0.2032" layer="1"/>
-<wire x1="16.6455" y1="54.745" x2="16.70141875" y2="54.80091875" width="0.2032" layer="1"/>
-<wire x1="16.395" y1="49.04" x2="16.6455" y2="54.745" width="0.2032" layer="1"/>
-<wire x1="12.67" y1="49.245" x2="11.345" y2="52.07" width="0.2032" layer="1"/>
-<wire x1="11.345" y1="52.07" x2="13.0075" y2="52.32" width="0.2032" layer="1"/>
-<wire x1="14.9325" y1="52.32" x2="18.775" y2="51.795" width="0.2032" layer="1"/>
-<wire x1="18.775" y1="51.795" x2="19.05" y2="52.07" width="0.2032" layer="1"/>
-<via x="19.05" y="52.07" extent="1-16" drill="0.35"/>
-<wire x1="13.0075" y1="52.32" x2="10.075" y2="50.8" width="0.2032" layer="1"/>
-<wire x1="10.075" y1="50.8" x2="8.89" y2="50.8" width="0.2032" layer="1"/>
-<via x="8.89" y="50.8" extent="1-16" drill="0.35"/>
-<wire x1="16.70141875" y1="54.80091875" x2="16.70141875" y2="51.96358125" width="0.2032" layer="1"/>
-<wire x1="16.70141875" y1="51.96358125" x2="14.9325" y2="52.32" width="0.2032" layer="1"/>
-<wire x1="11.245" y1="52.07" x2="11.345" y2="54.57" width="0.2032" layer="1"/>
-<wire x1="11.345" y1="54.57" x2="11.345" y2="52.07" width="0.2032" layer="1"/>
-<wire x1="16.70141875" y1="51.96358125" x2="16.4" y2="51.875" width="0" layer="19" extent="1-16"/>
-<wire x1="11.54" y1="51.875" x2="11.345" y2="52.07" width="0" layer="19" extent="1-16"/>
+<wire x1="13.0075" y1="55.495" x2="11.495" y2="55.495" width="0.2032" layer="1"/>
+<wire x1="11.495" y1="55.495" x2="11.245" y2="55.245" width="0.2032" layer="1"/>
+<wire x1="14.9325" y1="55.495" x2="16.445" y2="55.495" width="0.2032" layer="1"/>
+<wire x1="16.445" y1="55.495" x2="16.695" y2="55.245" width="0.2032" layer="1"/>
+<wire x1="11.545" y1="52.215" x2="12.465" y2="52.215" width="0.2032" layer="1"/>
+<wire x1="12.465" y1="52.215" x2="12.67" y2="52.42" width="0.2032" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R2" pad="2"/>
@@ -3160,8 +3157,6 @@ design rules under a new name.</description>
 <wire x1="28.5060875" y1="33.655" x2="27.49148125" y2="32.64039375" width="0.2032" layer="1"/>
 <wire x1="27.49148125" y1="32.64039375" x2="25.144603125" y2="32.64039375" width="0.2032" layer="1"/>
 <contactref element="J2" pad="D-"/>
-<wire x1="14.62" y1="49.245" x2="14.732" y2="51.958" width="0.2032" layer="1"/>
-<wire x1="14.732" y1="51.958" x2="14.732" y2="50.292" width="0.2032" layer="1"/>
 <wire x1="14.732" y1="50.292" x2="15.494" y2="49.53" width="0.2032" layer="1"/>
 <via x="15.494" y="49.53" extent="1-16" drill="0.35"/>
 <wire x1="15.494" y1="49.53" x2="15.494" y2="47.625" width="0.2032" layer="16"/>
@@ -3169,6 +3164,8 @@ design rules under a new name.</description>
 <via x="15.367" y="47.498" extent="1-16" drill="0.35"/>
 <wire x1="15.367" y1="47.498" x2="15.367" y2="40.50156875" width="0.2032" layer="1"/>
 <wire x1="15.367" y1="40.50156875" x2="17.145" y2="38.72356875" width="0.2032" layer="1"/>
+<wire x1="14.62" y1="52.42" x2="14.732" y2="52.308" width="0.2032" layer="1"/>
+<wire x1="14.732" y1="52.308" x2="14.732" y2="50.292" width="0.2032" layer="1"/>
 </signal>
 <signal name="D+">
 <contactref element="R6" pad="1"/>
@@ -3178,10 +3175,9 @@ design rules under a new name.</description>
 <contactref element="J2" pad="D+"/>
 <wire x1="17.73708125" y1="39.15891875" x2="26.50008125" y2="39.15891875" width="0.2032" layer="1"/>
 <wire x1="16.129" y1="47.9837875" x2="16.129" y2="40.767" width="0.2032" layer="1"/>
-<wire x1="13.97" y1="49.245" x2="14.039" y2="52.001" width="0.2032" layer="1"/>
-<wire x1="14.039" y1="52.001" x2="14.039" y2="50.0737875" width="0.2032" layer="1"/>
-<wire x1="14.039" y1="50.0737875" x2="16.129" y2="47.9837875" width="0.2032" layer="1"/>
 <wire x1="16.129" y1="40.767" x2="17.73708125" y2="39.15891875" width="0.2032" layer="1"/>
+<wire x1="13.97" y1="52.42" x2="13.97" y2="50.1427875" width="0.2032" layer="1"/>
+<wire x1="13.97" y1="50.1427875" x2="16.129" y2="47.9837875" width="0.2032" layer="1"/>
 </signal>
 <signal name="USB_DM">
 <contactref element="R5" pad="2"/>
@@ -3217,9 +3213,9 @@ design rules under a new name.</description>
 <wire x1="14.224" y1="35.175725" x2="14.224" y2="38.354" width="0.2032" layer="16"/>
 <wire x1="12.954" y1="32.004" x2="14.2339" y2="33.2839" width="0.2032" layer="16"/>
 <wire x1="14.2339" y1="33.2839" x2="14.2339" y2="35.165825" width="0.2032" layer="16"/>
-<wire x1="14.224" y1="38.354" x2="14.224" y2="48.768" width="0.2032" layer="1"/>
-<wire x1="13.32" y1="49.672" x2="13.32" y2="49.245" width="0.2032" layer="1"/>
-<wire x1="14.224" y1="48.768" x2="13.32" y2="49.672" width="0.2032" layer="1"/>
+<wire x1="14.224" y1="48.768" x2="14.224" y2="38.354" width="0.2032" layer="1"/>
+<wire x1="13.32" y1="52.42" x2="13.32" y2="49.672" width="0.2032" layer="1"/>
+<wire x1="13.32" y1="49.672" x2="14.224" y2="48.768" width="0.2032" layer="1"/>
 </signal>
 <signal name="RST">
 <contactref element="J6" pad="2"/>
@@ -4058,15 +4054,22 @@ design rules under a new name.</description>
 <errors>
 <approved hash="5,1,298849dd65a8f251"/>
 <approved hash="5,1,f02401c0e2a91d8d"/>
-<approved hash="5,1,3bc22aa7dd26b8e1"/>
 <approved hash="5,1,eb91d50f8a000496"/>
-<approved hash="5,1,c24cd6ac25158ebb"/>
 <approved hash="5,1,f840ce051d86886d"/>
 <approved hash="5,1,60b7acfaa13580c0"/>
-<approved hash="5,1,9d6f9e918575eec9"/>
 <approved hash="5,1,170c1831fc332551"/>
 <approved hash="5,1,a882012da36b1736"/>
 <approved hash="23,16,7aa4744203f1fadc"/>
+<approved hash="5,1,7d1ec2a468a2bf5a"/>
+<approved hash="5,1,8ce98334f02a148b"/>
+<approved hash="5,1,6544e2dab4828c52"/>
+<approved hash="5,1,7cab629ca08650f7"/>
+<approved hash="5,1,39c5de6b3b48e447"/>
+<approved hash="5,1,1285f3d2fecd1ea6"/>
+<approved hash="5,1,619e66237dba0ea5"/>
+<approved hash="5,1,6dd162788658b054"/>
+<approved hash="5,1,9a04bf3f93470ad3"/>
+<approved hash="5,1,8f77ea6669190bee"/>
 </errors>
 </board>
 </drawing>

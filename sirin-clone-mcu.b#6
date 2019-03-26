@@ -184,7 +184,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWViOTli" projecturn="a.cGVyc29uYWw6dWUyOWViOTliIzIwMTkwMjI4MTc5MjYyNDAx" f3durn="urn:adsk.wipprod:dm.lineage:TbYIAYm_SeiHnU5SEeh_ow" pcbguid="427068f0-0b71-4137-912b-b7c28c9918c9" lastpulledtime="2019-03-21T19:34:48Z" lastsyncedchangeguid="63e12d14-13f2-8790-f095-b55428db20ab"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWViOTli" projecturn="a.cGVyc29uYWw6dWUyOWViOTliIzIwMTkwMjI4MTc5MjYyNDAx" f3durn="urn:adsk.wipprod:dm.lineage:TbYIAYm_SeiHnU5SEeh_ow" pcbguid="427068f0-0b71-4137-912b-b7c28c9918c9" lastpulledtime="2019-03-21T19:34:48Z" lastsyncedchangeguid="dee72c38-ea4a-60d5-5f84-73839d76ee31"/>
 <plain>
 <polygon width="0.1524" layer="30">
 <vertex x="91.821" y="39.624"/>
@@ -637,7 +637,7 @@ dual in line package'</description>
 <rectangle x1="-1.5499" y1="3.4501" x2="-0.9901" y2="4.1199" layer="51"/>
 <rectangle x1="-4.0899" y1="3.4501" x2="-3.5301" y2="4.1199" layer="51"/>
 </package>
-<package name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:footprint:9975531/2" locally_modified="yes" library_version="29" library_locally_modified="yes">
+<package name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:footprint:9975531/3" library_version="35" library_locally_modified="yes">
 <description>https://www.digikey.com/product-detail/en/molex/0878313020/WM18565-ND/679683</description>
 <pad name="P$1" x="-14" y="1" drill="0.9"/>
 <pad name="P$2" x="-12" y="1" drill="0.9"/>
@@ -945,12 +945,13 @@ dual in line package'</description>
 <packageinstance name="DIP8"/>
 </packageinstances>
 </package3d>
-<package3d name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:package:9975532/3" locally_modified="yes" type="model" library_version="29" library_locally_modified="yes">
+<package3d name="MOLEX_30PINCONNECTOR_2MM" urn="urn:adsk.eagle:package:9975532/4" type="model" library_version="35" library_locally_modified="yes">
+<description>https://www.digikey.com/product-detail/en/molex/0878313020/WM18565-ND/679683</description>
 <packageinstances>
 <packageinstance name="MOLEX_30PINCONNECTOR_2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="FCI_10103594-0001LF" urn="urn:adsk.eagle:package:10018607/1" type="box" library_version="34">
+<package3d name="FCI_10103594-0001LF" urn="urn:adsk.eagle:package:10018607/2" type="model" library_version="35" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="FCI_10103594-0001LF"/>
 </packageinstances>
@@ -1222,7 +1223,7 @@ dual in line package'</description>
 <text x="0" y="4.4" size="0.7" layer="51" rot="R90" align="center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="0.762" x2="1.778" y2="8.382" layer="43"/>
 </package>
-<package name="1X5HEADER" library_version="8" library_locally_modified="yes">
+<package name="1X5HEADER" urn="urn:adsk.eagle:footprint:8709580/1" library_version="17" library_locally_modified="yes">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.778"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778"/>
 <pad name="3" x="5.08" y="0" drill="1.016" diameter="1.778"/>
@@ -1559,6 +1560,22 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <text x="-3.81" y="-3.175" size="1.016" layer="21">&gt;VALUE</text>
 <text x="-3.81" y="1.905" size="1.016" layer="21">&gt;NAME</text>
 </package>
+<package name="SOT23-3" urn="urn:adsk.eagle:footprint:8442300/1" library_version="17" library_locally_modified="yes">
+<description>SOT23-3</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="GND" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="OUT" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="IN" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="2.54" y="-2.54" size="0.8128" layer="21" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="0.8128" layer="21" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:8442343/2" type="model" library_version="8" library_locally_modified="yes">
@@ -1657,27 +1674,18 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <packageinstance name="TSSOP8"/>
 </packageinstances>
 </package3d>
-</packages3d>
-</library>
-<library name="moon-germs-v1">
-<packages>
-<package name="SOT23-3">
+<package3d name="1X5HEADER" urn="urn:adsk.eagle:package:8709581/1" type="box" library_version="17" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="1X5HEADER"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-3" urn="urn:adsk.eagle:package:8442353/2" type="model" library_version="17" library_locally_modified="yes">
 <description>SOT23-3</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="GND" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="OUT" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="IN" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="2.54" y="-2.54" size="0.8128" layer="21" rot="R90">&gt;VALUE</text>
-<text x="-1.905" y="-2.54" size="0.8128" layer="21" rot="R90">&gt;NAME</text>
-</package>
-</packages>
+<packageinstances>
+<packageinstance name="SOT23-3"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1877,30 +1885,56 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="CUI_PJ-002A" package3d_urn="urn:adsk.eagle:package:9702177/2" value="PJ-002A" x="90.17" y="45.4402" smashed="yes" rot="R90">
+<attribute name="DPN" value="CP-002A-ND" x="90.17" y="45.4402" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" x="90.17" y="45.4402" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="CUI INC" x="90.17" y="45.4402" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="PJ-002A" x="90.17" y="45.4402" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="STANDARD" value="Manufacturer recommendations" x="90.17" y="45.4402" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="AMPHENOL_STEREO_JACK" package3d_urn="urn:adsk.eagle:package:9702873/3" value="STEREO_LINE_OUT_JACK" x="57.15" y="39.37" smashed="yes" rot="R90"/>
+<element name="U$3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="AMPHENOL_STEREO_JACK" package3d_urn="urn:adsk.eagle:package:9702873/3" value="STEREO_LINE_OUT_JACK" x="57.15" y="39.37" smashed="yes" rot="R90">
+<attribute name="DPN" value="889-1817-ND" x="57.15" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/products/en/connectors-interconnects/barrel-audio-connectors/434?k=stereo+jack&amp;k=&amp;pkeyword=stereo+jack&amp;sv=0&amp;pv272=59&amp;pv541=10&amp;sf=0&amp;FV=ffe001b2%2Cfffc07af%2Cfffc0261%2Cfffc0379%2C1f140000&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;pageSize=25" x="57.15" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ACJS-MHDR" x="57.15" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="D1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="SOD323" package3d_urn="urn:adsk.eagle:package:9797239/2" value="1N4148WX-TP" x="32.702" y="28.892" smashed="yes" rot="R270">
+<attribute name="DPN" value="1N4148WXTPMSCT-ND" x="32.702" y="28.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/micro-commercial-co/1N4148WX-TP/1N4148WXTPMSCT-ND/717312" x="32.702" y="28.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="1N4148WX-TP" x="32.702" y="28.892" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.482" y="29.792" size="0.508" layer="25" rot="R270"/>
 </element>
 <element name="R1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="0805" package3d_urn="urn:adsk.eagle:package:8442354/2" value="220" x="32.702" y="33.02" smashed="yes" rot="R90">
+<attribute name="DPN" value="RHM220KCT-ND" x="32.702" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ221/RHM220KCT-ND/1762990" x="32.702" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ESR10EZPJ221" x="32.702" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.623" y="33.845" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="33.083" size="0.508" layer="21" rot="R180"/>
 </element>
 <element name="C1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="C_0805" package3d_urn="urn:adsk.eagle:package:8442351/2" value="0.1UF" x="47.625" y="30.48" smashed="yes" rot="R270">
+<attribute name="DPN" value="399-9158-1-ND" x="47.625" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/C0805C104Z3VACTU/399-9158-1-ND/3522676" x="47.625" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C104Z3VACTU" x="47.625" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="47.244" y="28.321" size="0.508" layer="21"/>
 <attribute name="VALUE" x="47.117" y="27.686" size="0.508" layer="21"/>
 </element>
 <element name="R2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="0805" package3d_urn="urn:adsk.eagle:package:8442354/2" value="470" x="45.72" y="30.48" smashed="yes" rot="R90">
+<attribute name="DPN" value="RHM470KCT-ND" x="45.72" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ471/RHM470KCT-ND/1763027" x="45.72" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ESR10EZPJ471" x="45.72" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="45.847" y="28.702" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="27.94" size="0.508" layer="21" rot="R180"/>
 </element>
-<element name="U$1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIN_SDS_50J" package3d_urn="urn:adsk.eagle:package:9699785/3" value="MIDI_CONNECTOR" x="33.34" y="54.69" smashed="yes" rot="R180"/>
+<element name="U$1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIN_SDS_50J" package3d_urn="urn:adsk.eagle:package:9699785/3" value="MIDI_CONNECTOR" x="33.34" y="54.69" smashed="yes" rot="R180">
+<attribute name="DPN" value="CP-2350-ND" x="33.34" y="54.69" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-inc/SDS-50J/CP-2350-ND/97033" x="33.34" y="54.69" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SDS-50J" x="33.34" y="54.69" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="OK1" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="DIP8" package3d_urn="urn:adsk.eagle:package:9797260/2" value="6N138" x="39.37" y="30.48" smashed="yes" rot="R270">
+<attribute name="DPN" value="160-1797-ND" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/lite-on-inc/6N138S/160-1797-ND/1969181" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="6N138S" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.0449" y="36.656" size="0.508" layer="27"/>
 </element>
-<element name="J3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="MOLEX_30PINCONNECTOR_2MM" package3d_urn="urn:adsk.eagle:package:9975532/3" value="30_PIN_CONNECTOR_MALE" x="81.28" y="9.525" smashed="yes"/>
+<element name="J3" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="MOLEX_30PINCONNECTOR_2MM" package3d_urn="urn:adsk.eagle:package:9975532/4" value="30_PIN_CONNECTOR_MALE" x="81.28" y="9.525" smashed="yes"/>
 <element name="K3" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="LQFP64-05" package3d_urn="urn:adsk.eagle:package:8700970/2" value="" x="17.277" y="26.352" smashed="yes" rot="R225">
 <attribute name="DESC" value="MK20DX256VLH7" x="17.277" y="26.352" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MF" value="NXP" x="17.277" y="26.352" size="1.778" layer="27" rot="R225" display="off"/>
@@ -1915,8 +1949,8 @@ design rules under a new name.</description>
 <attribute name="DESC" value="MKL04Z32VLC4 (preprogrammed)" x="16.51" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="PJRC" x="16.51" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="IC_MKL04Z32_TQFP32" x="16.51" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="18.65" y="7.62" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="NAME" x="15.5575" y="10.4775" size="0.7" layer="51" rot="R180" align="center"/>
+<attribute name="NAME" x="18.65" y="7.62" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="PACKAGE" value="LQFP-32" x="16.51" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Microcontroller" x="16.51" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1933,8 +1967,8 @@ design rules under a new name.</description>
 <attribute name="DESC" value="16MHz / 18pF / 10ppm" x="3.81" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="ABRACON" x="3.81" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ABL-16.000MHz-B1U" x="3.81" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.3495" y="26.9875" size="0.508" layer="25" ratio="11" rot="R270"/>
 <attribute name="NAME" x="4.699" y="24.13" size="0.508" layer="51" rot="R270" align="center"/>
+<attribute name="NAME" x="2.3495" y="26.9875" size="0.508" layer="25" ratio="11" rot="R270"/>
 <attribute name="OC_MOUSER" value="815-ABL-16-B1U" x="3.81" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="HC-49US" x="3.81" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TYPE" value="Crystal" x="3.81" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1944,8 +1978,8 @@ design rules under a new name.</description>
 <attribute name="DESC" value="32.768kHz / 12.5pF / 20ppm" x="12.954" y="36.512" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Citizen FineDevice" x="12.954" y="36.512" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value=" CFS206-32.768KDZF-UB" x="12.954" y="36.512" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.938" y="35.623" size="0.508" layer="25" ratio="10" rot="R180"/>
 <attribute name="NAME" x="10.459" y="36.512" size="0.508" layer="51" rot="R180" align="center"/>
+<attribute name="NAME" x="11.938" y="35.623" size="0.508" layer="25" ratio="10" rot="R180"/>
 <attribute name="OC_MOUSER" value="695-CFS206-327KF-U" x="12.954" y="36.512" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="TC-26H" x="12.954" y="36.512" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Crystal" x="12.954" y="36.512" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1967,7 +2001,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.08101875" y="31.0718375" size="0.508" layer="25" rot="R315"/>
 <attribute name="VALUE" x="28.619834375" y="31.341246875" size="0.508" layer="27" rot="R315"/>
 </element>
-<element name="J6" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="1X5HEADER" value="SWD_CONNECTOR" x="4.115" y="17.92" smashed="yes" rot="R270"/>
+<element name="J6" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="1X5HEADER" package3d_urn="urn:adsk.eagle:package:8709581/1" value="SWD_CONNECTOR" x="4.115" y="17.92" smashed="yes" rot="R270"/>
 <element name="S2" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="SWITCH_PTS820" package3d_urn="urn:adsk.eagle:package:8762249/2" value="" x="7.62" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.6675" y="10.4775" size="0.7" layer="51" rot="R180" align="center"/>
 </element>
@@ -2071,7 +2105,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="71.6915" y="33.9725" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="70.1675" y="32.7025" size="0.508" layer="21"/>
 </element>
-<element name="D6" library="moon-germs-v1" package="SOT23-3" value="AP7313" x="86.36" y="35.242" smashed="yes" rot="R90">
+<element name="D6" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:8442353/2" value="AP7313" x="86.36" y="35.242" smashed="yes" rot="R90">
+<attribute name="DPIN" value="AP7313-33SRG-7DICT-ND" x="86.36" y="35.242" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/AP7313-33SRG-7/AP7313-33SRG-7DICT-ND/2270841" x="86.36" y="35.242" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="AP7313-33SRG-7" x="86.36" y="35.242" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="86.1695" y="36.4485" size="0.508" layer="21" rot="R270"/>
 </element>
 <element name="L3" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="0805" package3d_urn="urn:adsk.eagle:package:8442354/2" value="FER600" x="71.755" y="26.3525" smashed="yes" rot="R90">
@@ -2086,7 +2123,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="84.7725" y="28.6385" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="84.8995" y="27.8765" size="0.508" layer="21" rot="R180"/>
 </element>
-<element name="U4" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="QFN-32-5MM" package3d_urn="urn:adsk.eagle:package:8442355/2" value="SGTL5000_32QFN" x="76.2" y="29.21" smashed="yes" rot="R270"/>
+<element name="U4" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="QFN-32-5MM" package3d_urn="urn:adsk.eagle:package:8442355/2" value="SGTL5000_32QFN" x="76.2" y="29.21" smashed="yes" rot="R270">
+<attribute name="DPN" value="SGTL5000XNAA3R2TR-ND" x="76.2" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/SGTL5000XNAA3R2/SGTL5000XNAA3R2TR-ND/2186898" x="76.2" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SGTL5000XNAA3R2" x="76.2" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="U5" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="TSSOP8" package3d_urn="urn:adsk.eagle:package:8442350/2" value="23LC1024" x="54.292" y="10.16" smashed="yes">
 <attribute name="VALUE" x="52.768" y="11.811" size="0.508" layer="21"/>
 </element>
@@ -2104,16 +2145,25 @@ design rules under a new name.</description>
 </element>
 <element name="J5" library="moon-germs-v1_main" library_urn="urn:adsk.eagle:library:8442267" package="STEREO_JACK_2SWITCH" package3d_urn="urn:adsk.eagle:package:8442329/2" value="SWITCHCRAFT_PHONEJACK" x="72.39" y="56.5658" smashed="yes" rot="R270"/>
 <element name="C2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="C_0805" package3d_urn="urn:adsk.eagle:package:8442351/2" value="1UF" x="67.31" y="41.91" smashed="yes" rot="R90">
+<attribute name="DPN" value="399-9158-1-ND" x="67.31" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/C0805C104Z3VACTU/399-9158-1-ND/3522676" x="67.31" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C104Z3VACTU  " x="67.31" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="69.088" y="43.053" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="69.596" y="42.164" size="0.508" layer="21" rot="R180"/>
 </element>
 <element name="C5" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="C_0805" package3d_urn="urn:adsk.eagle:package:8442351/2" value="1UF" x="67.31" y="36.83" smashed="yes" rot="R90">
+<attribute name="DPN" value="399-9158-1-ND" x="67.31" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/C0805C104Z3VACTU/399-9158-1-ND/3522676" x="67.31" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0805C104Z3VACTU  " x="67.31" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="69.088" y="37.719" size="0.508" layer="21" rot="R180"/>
 <attribute name="VALUE" x="69.469" y="36.957" size="0.508" layer="21" rot="R180"/>
 </element>
-<element name="J2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="FCI_10103594-0001LF" package3d_urn="urn:adsk.eagle:package:10018607/1" value="" x="13.97" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.954" y="60.706" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.24" y="61.341" size="0.508" layer="27" font="vector" rot="R180"/>
+<element name="J2" library="sirin-clone-library" library_urn="urn:adsk.eagle:library:9336050" package="FCI_10103594-0001LF" package3d_urn="urn:adsk.eagle:package:10018607/2" value="" x="13.97" y="55.245" smashed="yes" rot="R180">
+<attribute name="DPN" value="609-4050-1-ND" x="13.97" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/amphenol-icc-fci/10103594-0001LF/609-4050-1-ND/2350357" x="13.97" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="10103594-0001LF" x="13.97" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="12.954" y="60.071" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="15.24" y="60.706" size="0.508" layer="27" font="vector" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -2356,14 +2406,12 @@ design rules under a new name.</description>
 <contactref element="J2" pad="S2"/>
 <contactref element="J2" pad="S6"/>
 <contactref element="J2" pad="S3"/>
-<wire x1="14.9991" y1="56.1209" x2="14.9325" y2="56.13" width="0.2032" layer="1"/>
-<wire x1="13.421425" y1="55.331425" x2="13.0075" y2="56.13" width="0.2032" layer="1"/>
-<wire x1="13.0075" y1="56.13" x2="11.495" y2="56.13" width="0.2032" layer="1"/>
-<wire x1="11.495" y1="56.13" x2="11.245" y2="55.88" width="0.2032" layer="1"/>
-<wire x1="14.9325" y1="56.13" x2="16.445" y2="56.13" width="0.2032" layer="1"/>
-<wire x1="16.445" y1="56.13" x2="16.695" y2="55.88" width="0.2032" layer="1"/>
-<wire x1="11.545" y1="52.85" x2="12.465" y2="52.85" width="0.2032" layer="1"/>
-<wire x1="12.465" y1="52.85" x2="12.67" y2="53.055" width="0.2032" layer="1"/>
+<wire x1="13.0075" y1="55.495" x2="11.495" y2="55.495" width="0.2032" layer="1"/>
+<wire x1="11.495" y1="55.495" x2="11.245" y2="55.245" width="0.2032" layer="1"/>
+<wire x1="14.9325" y1="55.495" x2="16.445" y2="55.495" width="0.2032" layer="1"/>
+<wire x1="16.445" y1="55.495" x2="16.695" y2="55.245" width="0.2032" layer="1"/>
+<wire x1="11.545" y1="52.215" x2="12.465" y2="52.215" width="0.2032" layer="1"/>
+<wire x1="12.465" y1="52.215" x2="12.67" y2="52.42" width="0.2032" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R2" pad="2"/>
@@ -3150,15 +3198,15 @@ design rules under a new name.</description>
 <wire x1="28.5060875" y1="33.655" x2="27.49148125" y2="32.64039375" width="0.2032" layer="1"/>
 <wire x1="27.49148125" y1="32.64039375" x2="25.144603125" y2="32.64039375" width="0.2032" layer="1"/>
 <contactref element="J2" pad="D-"/>
-<wire x1="15.494" y1="49.53" x2="14.732" y2="50.292" width="0.2032" layer="1"/>
+<wire x1="14.732" y1="50.292" x2="15.494" y2="49.53" width="0.2032" layer="1"/>
 <via x="15.494" y="49.53" extent="1-16" drill="0.35"/>
 <wire x1="15.494" y1="49.53" x2="15.494" y2="47.625" width="0.2032" layer="16"/>
 <wire x1="15.494" y1="47.625" x2="15.367" y2="47.498" width="0.2032" layer="16"/>
 <via x="15.367" y="47.498" extent="1-16" drill="0.35"/>
 <wire x1="15.367" y1="47.498" x2="15.367" y2="40.50156875" width="0.2032" layer="1"/>
 <wire x1="15.367" y1="40.50156875" x2="17.145" y2="38.72356875" width="0.2032" layer="1"/>
-<wire x1="14.732" y1="50.292" x2="14.732" y2="52.943" width="0.2032" layer="1"/>
-<wire x1="14.732" y1="52.943" x2="14.62" y2="53.055" width="0.2032" layer="1"/>
+<wire x1="14.62" y1="52.42" x2="14.732" y2="52.308" width="0.2032" layer="1"/>
+<wire x1="14.732" y1="52.308" x2="14.732" y2="50.292" width="0.2032" layer="1"/>
 </signal>
 <signal name="D+">
 <contactref element="R6" pad="1"/>
@@ -3169,7 +3217,7 @@ design rules under a new name.</description>
 <wire x1="17.73708125" y1="39.15891875" x2="26.50008125" y2="39.15891875" width="0.2032" layer="1"/>
 <wire x1="16.129" y1="47.9837875" x2="16.129" y2="40.767" width="0.2032" layer="1"/>
 <wire x1="16.129" y1="40.767" x2="17.73708125" y2="39.15891875" width="0.2032" layer="1"/>
-<wire x1="13.97" y1="53.055" x2="13.97" y2="50.1427875" width="0.2032" layer="1"/>
+<wire x1="13.97" y1="52.42" x2="13.97" y2="50.1427875" width="0.2032" layer="1"/>
 <wire x1="13.97" y1="50.1427875" x2="16.129" y2="47.9837875" width="0.2032" layer="1"/>
 </signal>
 <signal name="USB_DM">
@@ -3207,7 +3255,7 @@ design rules under a new name.</description>
 <wire x1="12.954" y1="32.004" x2="14.2339" y2="33.2839" width="0.2032" layer="16"/>
 <wire x1="14.2339" y1="33.2839" x2="14.2339" y2="35.165825" width="0.2032" layer="16"/>
 <wire x1="14.224" y1="48.768" x2="14.224" y2="38.354" width="0.2032" layer="1"/>
-<wire x1="13.32" y1="53.055" x2="13.32" y2="49.672" width="0.2032" layer="1"/>
+<wire x1="13.32" y1="52.42" x2="13.32" y2="49.672" width="0.2032" layer="1"/>
 <wire x1="13.32" y1="49.672" x2="14.224" y2="48.768" width="0.2032" layer="1"/>
 </signal>
 <signal name="RST">
@@ -4047,15 +4095,22 @@ design rules under a new name.</description>
 <errors>
 <approved hash="5,1,298849dd65a8f251"/>
 <approved hash="5,1,f02401c0e2a91d8d"/>
-<approved hash="5,1,3bc22aa7dd26b8e1"/>
 <approved hash="5,1,eb91d50f8a000496"/>
-<approved hash="5,1,c24cd6ac25158ebb"/>
 <approved hash="5,1,f840ce051d86886d"/>
 <approved hash="5,1,60b7acfaa13580c0"/>
-<approved hash="5,1,9d6f9e918575eec9"/>
 <approved hash="5,1,170c1831fc332551"/>
 <approved hash="5,1,a882012da36b1736"/>
 <approved hash="23,16,7aa4744203f1fadc"/>
+<approved hash="5,1,7d1ec2a468a2bf5a"/>
+<approved hash="5,1,8ce98334f02a148b"/>
+<approved hash="5,1,6544e2dab4828c52"/>
+<approved hash="5,1,7cab629ca08650f7"/>
+<approved hash="5,1,39c5de6b3b48e447"/>
+<approved hash="5,1,1285f3d2fecd1ea6"/>
+<approved hash="5,1,619e66237dba0ea5"/>
+<approved hash="5,1,6dd162788658b054"/>
+<approved hash="5,1,9a04bf3f93470ad3"/>
+<approved hash="5,1,8f77ea6669190bee"/>
 </errors>
 </board>
 </drawing>
